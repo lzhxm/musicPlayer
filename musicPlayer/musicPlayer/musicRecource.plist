@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>music</key>
+		<string>一次就好.mp3</string>
+		<key>musicName</key>
+		<string>一次就好</string>
+		<key>singer</key>
+		<string></string>
+		<key>lrc</key>
+		<string>一次就好</string>
+		<key>picture</key>
+		<string>一次就好</string>
+	</dict>
+	<dict>
+		<key>music</key>
+		<string>走在冷风中.mp3</string>
+		<key>musicName</key>
+		<string>走在冷风中</string>
+		<key>singer</key>
+		<string></string>
+		<key>lrc</key>
+		<string>走在冷风中</string>
+		<key>picture</key>
+		<string>走在冷风中</string>
+	</dict>
+	<dict>
+		<key>music</key>
+		<string>爱情转移.mp3</string>
+		<key>musicName</key>
+		<string>爱情转移</string>
+		<key>singer</key>
+		<string></string>
+		<key>lrc</key>
+		<string>爱情转移</string>
+		<key>picture</key>
+		<string>爱情转移</string>
+	</dict>
+	<dict>
+		<key>music</key>
+		<string>稳稳的幸福.mp3</string>
+		<key>musicName</key>
+		<string>稳稳的幸福</string>
+		<key>singer</key>
+		<string></string>
+		<key>lrc</key>
+		<string>稳稳的幸福</string>
+		<key>picture</key>
+		<string>稳稳的幸福</string>
+	</dict>
+</array>
+</plist>
