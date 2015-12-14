@@ -42,18 +42,17 @@
     UIButton *frontButton = [UIButton buttonWithType:UIButtonTypeCustom];
     UIButton *nextButton = [UIButton buttonWithType:UIButtonTypeCustom];
     
-    [_playButton setTitle:@"暂停" forState:UIControlStateNormal];
-    [frontButton setTitle:@"上一首" forState:UIControlStateNormal];
-    [nextButton setTitle:@"下一首" forState:UIControlStateNormal];
+
+    [_playButton setImage:[UIImage imageNamed:@"暂停"] forState:UIControlStateNormal];
+    [frontButton setImage:[UIImage imageNamed:@"上一首"] forState:UIControlStateNormal];
+    [nextButton setImage:[UIImage imageNamed:@"下一首"] forState:UIControlStateNormal];
     
-    [_playButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [frontButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [nextButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+
     
     
-    frontButton.frame = CGRectMake(43, 550, 60, 40);
-    _playButton.frame = CGRectMake(175, 550, 40, 40);
-    nextButton.frame = CGRectMake(292, 550, 60, 40);
+    frontButton.frame = CGRectMake(43, 550, 50, 40);
+    _playButton.frame = CGRectMake(175, 550, 70, 40);
+    nextButton.frame = CGRectMake(292, 550, 50, 40);
     
     [self.view addSubview:_playButton];
     [self.view addSubview:frontButton];
@@ -68,7 +67,11 @@
     [self.view addSubview:_timeSlider];
     _label1 = [[UILabel alloc] initWithFrame:CGRectMake(10, 500, 40, 20)];
     _label2 = [[UILabel alloc] initWithFrame:CGRectMake(330, 500, 40, 20)];
-  
+    
+    UIImageView *img = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"声音"]];
+    img.frame = CGRectMake(340, 420, 20, 20);
+    
+    [self.view addSubview:img];
     [self.view addSubview:_label1];
     [self.view addSubview:_label2];
    
@@ -84,8 +87,7 @@
 //设置界面信息
 - (void)setUI
 {
-//    Models *model = self.musicArray[_integer];
-//    _model = model;
+
     //显示歌名
     _label = [[UILabel alloc] initWithFrame:CGRectMake(0,64,375, 50)];
     
@@ -138,10 +140,12 @@
     
     if (_player.playing) {
         [_player pause];
-        [_playButton setTitle:@"开始" forState:UIControlStateNormal];
+       
+        [_playButton setImage:[UIImage imageNamed:@"播放"] forState:UIControlStateNormal];
     } else {
         [_player play];
-        [_playButton setTitle:@"暂停" forState:UIControlStateNormal];
+
+        [_playButton setImage:[UIImage imageNamed:@"暂停"] forState:UIControlStateNormal];
     }
 }
 
@@ -157,7 +161,8 @@
         _label.text = _model.musicName;
         _imageView.image = [UIImage imageNamed:_model.picture];
         [_player play];
-        [_playButton setTitle:@"暂停" forState:UIControlStateNormal];
+
+        [_playButton setImage:[UIImage imageNamed:@"暂停"] forState:UIControlStateNormal];
     } else {
         _integer --;
         _model = self.musicArray[_integer];
@@ -166,7 +171,8 @@
         _label.text = _model.musicName;
         _imageView.image = [UIImage imageNamed:_model.picture];
         [_player play];
-        [_playButton setTitle:@"暂停" forState:UIControlStateNormal];
+
+        [_playButton setImage:[UIImage imageNamed:@"暂停"] forState:UIControlStateNormal];
     }
    
 }
@@ -182,7 +188,8 @@
         _label.text = _model.musicName;
         _imageView.image = [UIImage imageNamed:_model.picture];
         [_player play];
-        [_playButton setTitle:@"暂停" forState:UIControlStateNormal];
+ 
+        [_playButton setImage:[UIImage imageNamed:@"暂停"] forState:UIControlStateNormal];
     } else {
          _integer ++;
       
@@ -192,7 +199,8 @@
         _label.text = _model.musicName;
         _imageView.image = [UIImage imageNamed:_model.picture];
         [_player play];
-        [_playButton setTitle:@"暂停" forState:UIControlStateNormal];
+   
+        [_playButton setImage:[UIImage imageNamed:@"暂停"] forState:UIControlStateNormal];
     }
    
    

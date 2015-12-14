@@ -23,6 +23,11 @@
 		3C82171B1C0C608400D0D0C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C82171A1C0C608400D0D0C8 /* Images.xcassets */; };
 		3C82171E1C0C608400D0D0C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C82171C1C0C608400D0D0C8 /* LaunchScreen.xib */; };
 		3C82172A1C0C608400D0D0C8 /* musicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8217291C0C608400D0D0C8 /* musicPlayerTests.m */; };
+		3CC29DC61C1E560B00C37DB9 /* 播放.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DC51C1E560B00C37DB9 /* 播放.png */; };
+		3CC29DC81C1E561000C37DB9 /* 上一首.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DC71C1E561000C37DB9 /* 上一首.png */; };
+		3CC29DCA1C1E561400C37DB9 /* 下一首.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DC91C1E561400C37DB9 /* 下一首.png */; };
+		3CC29DCC1C1E561800C37DB9 /* 暂停.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DCB1C1E561800C37DB9 /* 暂停.png */; };
+		3CC29DD01C1E615D00C37DB9 /* 声音.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DCF1C1E615D00C37DB9 /* 声音.png */; };
 		3CF954FE1C113566003BD528 /* 爱情转移.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF954FD1C113566003BD528 /* 爱情转移.png */; };
 		3CF955041C1135AD003BD528 /* 稳稳的幸福.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF955031C1135AD003BD528 /* 稳稳的幸福.png */; };
 		3CF955061C1135BA003BD528 /* 一次就好.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF955051C1135BA003BD528 /* 一次就好.png */; };
@@ -72,6 +77,11 @@
 		3C8217231C0C608400D0D0C8 /* musicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8217281C0C608400D0D0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C8217291C0C608400D0D0C8 /* musicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = musicPlayerTests.m; sourceTree = "<group>"; };
+		3CC29DC51C1E560B00C37DB9 /* 播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放.png"; sourceTree = "<group>"; };
+		3CC29DC71C1E561000C37DB9 /* 上一首.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上一首.png"; sourceTree = "<group>"; };
+		3CC29DC91C1E561400C37DB9 /* 下一首.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下一首.png"; sourceTree = "<group>"; };
+		3CC29DCB1C1E561800C37DB9 /* 暂停.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂停.png"; sourceTree = "<group>"; };
+		3CC29DCF1C1E615D00C37DB9 /* 声音.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "声音.png"; sourceTree = "<group>"; };
 		3CF954FD1C113566003BD528 /* 爱情转移.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "爱情转移.png"; sourceTree = "<group>"; };
 		3CF955031C1135AD003BD528 /* 稳稳的幸福.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "稳稳的幸福.png"; path = "../../../resource/稳稳的幸福.png"; sourceTree = "<group>"; };
 		3CF955051C1135BA003BD528 /* 一次就好.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "一次就好.png"; path = "../../../resource/一次就好.png"; sourceTree = "<group>"; };
@@ -137,6 +147,11 @@
 		3C7604D11C0D4DD20022468B /* picture */ = {
 			isa = PBXGroup;
 			children = (
+				3CC29DCF1C1E615D00C37DB9 /* 声音.png */,
+				3CC29DCB1C1E561800C37DB9 /* 暂停.png */,
+				3CC29DC91C1E561400C37DB9 /* 下一首.png */,
+				3CC29DC71C1E561000C37DB9 /* 上一首.png */,
+				3CC29DC51C1E560B00C37DB9 /* 播放.png */,
 				3CF954FD1C113566003BD528 /* 爱情转移.png */,
 				3C704A351C105C30000E46E0 /* 透明.png */,
 				3CF955051C1135BA003BD528 /* 一次就好.png */,
@@ -313,23 +328,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF9550E1C1135E8003BD528 /* 稳稳的幸福.lrc in Resources */,
+				3CC29DD01C1E615D00C37DB9 /* 声音.png in Resources */,
 				3C72BD471C0F26CC0001A91B /* 爱情转移.lrc in Resources */,
 				3CF9550C1C1135DE003BD528 /* 一次就好.lrc in Resources */,
 				3C68B6401C1968EA00C33A6C /* MusicTableViewCell.xib in Resources */,
 				3CF9551A1C118D75003BD528 /* 稳稳的幸福.mp3 in Resources */,
 				3C704A361C105C30000E46E0 /* 透明.png in Resources */,
 				3CF954FE1C113566003BD528 /* 爱情转移.png in Resources */,
+				3CC29DC61C1E560B00C37DB9 /* 播放.png in Resources */,
 				3CF955191C118D75003BD528 /* 一次就好.mp3 in Resources */,
 				3C8217191C0C608400D0D0C8 /* Main.storyboard in Resources */,
 				3C82171E1C0C608400D0D0C8 /* LaunchScreen.xib in Resources */,
 				3CF955061C1135BA003BD528 /* 一次就好.png in Resources */,
 				3C72BD511C0F272D0001A91B /* 爱情转移.mp3 in Resources */,
 				3C82171B1C0C608400D0D0C8 /* Images.xcassets in Resources */,
+				3CC29DC81C1E561000C37DB9 /* 上一首.png in Resources */,
 				3CF955041C1135AD003BD528 /* 稳稳的幸福.png in Resources */,
 				3CF955181C118D75003BD528 /* 走在冷风中.mp3 in Resources */,
 				3CF9550A1C1135D5003BD528 /* 走在冷风中.lrc in Resources */,
+				3CC29DCA1C1E561400C37DB9 /* 下一首.png in Resources */,
 				3CF955081C1135C7003BD528 /* 走在冷风中.png in Resources */,
 				3C7604D41C0D4E980022468B /* musicRecource.plist in Resources */,
+				3CC29DCC1C1E561800C37DB9 /* 暂停.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
