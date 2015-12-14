@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MusicTableCell.h"
 
 @interface ViewController ()<AVAudioPlayerDelegate,UITableViewDataSource,UITableViewDelegate>
 
@@ -16,6 +16,21 @@
 
 @implementation ViewController
 
+- (NSMutableArray *)musicArray
+{
+    if (_musicArray == nil) {
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"musicRecource" ofType:@"plist"];
+        NSArray *arrar = [NSArray arrayWithContentsOfFile:path];
+        NSMutableArray *musicMutableArray = [[NSMutableArray alloc] init];
+        for (NSDictionary *dict in arrar) {
+            Models *model = [[Models alloc] initWithMusics:dict];
+            [musicMutableArray addObject:model];
+        }
+        _musicArray = musicMutableArray;
+    }
+    
+    return _musicArray;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     //更新界面
@@ -27,7 +42,7 @@
     UIButton *frontButton = [UIButton buttonWithType:UIButtonTypeCustom];
     UIButton *nextButton = [UIButton buttonWithType:UIButtonTypeCustom];
     
-    [_playButton setTitle:@"开始" forState:UIControlStateNormal];
+    [_playButton setTitle:@"暂停" forState:UIControlStateNormal];
     [frontButton setTitle:@"上一首" forState:UIControlStateNormal];
     [nextButton setTitle:@"下一首" forState:UIControlStateNormal];
     
@@ -48,7 +63,7 @@
     [_playButton addTarget:self action:@selector(musicStart) forControlEvents:UIControlEventTouchUpInside];
     [frontButton addTarget:self action:@selector(musicFront) forControlEvents:UIControlEventTouchUpInside];
     [nextButton addTarget:self action:@selector(musicNext) forControlEvents:UIControlEventTouchUpInside];
-
+    //进度条
     _timeSlider = [[UISlider alloc] initWithFrame:CGRectMake(50, 500, 280, 20)];
     [self.view addSubview:_timeSlider];
     _label1 = [[UILabel alloc] initWithFrame:CGRectMake(10, 500, 40, 20)];
@@ -56,42 +71,23 @@
   
     [self.view addSubview:_label1];
     [self.view addSubview:_label2];
-    if (_changeValue) {
-        _changeValue(_model);
-    }
-    
-    
+   
 }
+
+
 - (void)viewDidDisappear:(BOOL)animated
 {
     [_player stop];
 }
 
-//懒加载
-- (NSMutableArray *)mutableArray
-{
-    if (_mutableArray == nil) {
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"musicRecource" ofType:@"plist"];
-        NSArray *arrar = [NSArray arrayWithContentsOfFile:path];
-        NSMutableArray *musicMutableArray = [[NSMutableArray alloc] init];
-        for (NSDictionary *dict in arrar) {
-            Models *model = [[Models alloc] initWithMusics:dict];
-            [musicMutableArray addObject:model];
-        }
-        _mutableArray = musicMutableArray;
-     }
-    
-    return _mutableArray;
-}
+
 //设置界面信息
 - (void)setUI
 {
- 
-   
-    Models *model1 = self.mutableArray[_integer];
-    _model = model1;
+//    Models *model = self.musicArray[_integer];
+//    _model = model;
     //显示歌名
-    _label = [[UILabel alloc] initWithFrame:CGRectMake(90,64,200, 50)];
+    _label = [[UILabel alloc] initWithFrame:CGRectMake(0,64,375, 50)];
     
     _label.textColor = [UIColor blackColor];
     _label.text = _model.musicName;
@@ -127,7 +123,7 @@
     [self.view addSubview:_tableView];
     [self initLrc:_model.lrc];
     [self loadMusic:_model.musicName AndType:@"mp3"];
-   
+    [_player play];
 }
 //加载歌曲
 - (void)loadMusic:(NSString *)musicName AndType:(NSString *)type
@@ -139,6 +135,7 @@
 //播放
 - (void)musicStart
 {
+    
     if (_player.playing) {
         [_player pause];
         [_playButton setTitle:@"开始" forState:UIControlStateNormal];
@@ -153,8 +150,8 @@
 {
    
     if (_integer <= 0) {
-        _integer = [_mutableArray count]-1;
-        _model = self.mutableArray[_integer];
+        _integer = [_musicArray count]-1;
+        _model = self.musicArray[_integer];
         [self loadMusic:_model.musicName AndType:@"mp3"];
         [self initLrc:_model.lrc];
         _label.text = _model.musicName;
@@ -163,7 +160,7 @@
         [_playButton setTitle:@"暂停" forState:UIControlStateNormal];
     } else {
         _integer --;
-        _model = self.mutableArray[_integer];
+        _model = self.musicArray[_integer];
         [self loadMusic:_model.musicName AndType:@"mp3"];
         [self initLrc:_model.lrc];
         _label.text = _model.musicName;
@@ -177,9 +174,9 @@
 - (void)musicNext
 {
    
-    if (_integer >=[_mutableArray count]-1) {
+    if (_integer >=[_musicArray count]-1) {
         _integer = 0;
-        _model = self.mutableArray[_integer];
+        _model = self.musicArray[_integer];
         [self loadMusic:_model.musicName AndType:@"mp3"];
         [self initLrc:_model.lrc];
         _label.text = _model.musicName;
@@ -189,7 +186,7 @@
     } else {
          _integer ++;
       
-         _model = self.mutableArray[_integer];
+         _model = self.musicArray[_integer];
       [self loadMusic:_model.musicName AndType:@"mp3"];
         [self initLrc:_model.lrc];
         _label.text = _model.musicName;

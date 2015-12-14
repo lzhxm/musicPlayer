@@ -10,6 +10,7 @@
 
 @implementation Lrc
 
+//歌词解析
 - (NSDictionary *)musicLrc:(NSString *)lrc
 {
     NSMutableArray *timeArray = [[NSMutableArray alloc] init];
@@ -34,7 +35,7 @@
     NSDictionary *dict = @{@"lrcDict":lrcDict,@"timeArray":timeArray};
     return dict;
 }
-
+//时间转换
 - (NSUInteger)changeTime:(NSString *)str
 {
     NSArray *array = [str componentsSeparatedByString:@":"];

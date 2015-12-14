@@ -16,4 +16,5 @@
 - (NSDictionary *)musicLrc:(NSString *)lrc;
 - (NSUInteger)changeTime:(NSString *)str;
 - (NSString *)timeIntival:(NSInteger)time;
+
 @end

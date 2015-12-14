@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C704A341C0FEC4B000E46E0 /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C704A331C0FEC4B000E46E0 /* TableCell.m */; };
+		3C68B63F1C1968EA00C33A6C /* MusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C68B63D1C1968EA00C33A6C /* MusicTableViewCell.m */; };
+		3C68B6401C1968EA00C33A6C /* MusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C68B63E1C1968EA00C33A6C /* MusicTableViewCell.xib */; };
+		3C704A341C0FEC4B000E46E0 /* MusicTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C704A331C0FEC4B000E46E0 /* MusicTableCell.m */; };
 		3C704A361C105C30000E46E0 /* 透明.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C704A351C105C30000E46E0 /* 透明.png */; };
 		3C72BD3D1C0E7A560001A91B /* Lrc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C72BD3C1C0E7A560001A91B /* Lrc.m */; };
 		3C72BD471C0F26CC0001A91B /* 爱情转移.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3C72BD461C0F26CC0001A91B /* 爱情转移.lrc */; };
@@ -28,9 +30,9 @@
 		3CF9550A1C1135D5003BD528 /* 走在冷风中.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3CF955091C1135D5003BD528 /* 走在冷风中.lrc */; };
 		3CF9550C1C1135DE003BD528 /* 一次就好.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3CF9550B1C1135DE003BD528 /* 一次就好.lrc */; };
 		3CF9550E1C1135E8003BD528 /* 稳稳的幸福.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3CF9550D1C1135E8003BD528 /* 稳稳的幸福.lrc */; };
-		3CF955101C113608003BD528 /* 走在冷风中.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CF9550F1C113608003BD528 /* 走在冷风中.mp3 */; };
-		3CF955121C11360E003BD528 /* 一次就好.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CF955111C11360E003BD528 /* 一次就好.mp3 */; };
-		3CF955141C113618003BD528 /* 稳稳的幸福.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CF955131C113618003BD528 /* 稳稳的幸福.mp3 */; };
+		3CF955181C118D75003BD528 /* 走在冷风中.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CF955151C118D75003BD528 /* 走在冷风中.mp3 */; };
+		3CF955191C118D75003BD528 /* 一次就好.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CF955161C118D75003BD528 /* 一次就好.mp3 */; };
+		3CF9551A1C118D75003BD528 /* 稳稳的幸福.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CF955171C118D75003BD528 /* 稳稳的幸福.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C704A321C0FEC4B000E46E0 /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
-		3C704A331C0FEC4B000E46E0 /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		3C68B63C1C1968EA00C33A6C /* MusicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableViewCell.h; sourceTree = "<group>"; };
+		3C68B63D1C1968EA00C33A6C /* MusicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewCell.m; sourceTree = "<group>"; };
+		3C68B63E1C1968EA00C33A6C /* MusicTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicTableViewCell.xib; sourceTree = "<group>"; };
+		3C704A321C0FEC4B000E46E0 /* MusicTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableCell.h; sourceTree = "<group>"; };
+		3C704A331C0FEC4B000E46E0 /* MusicTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableCell.m; sourceTree = "<group>"; };
 		3C704A351C105C30000E46E0 /* 透明.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "透明.png"; sourceTree = "<group>"; };
 		3C72BD3B1C0E7A560001A91B /* Lrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lrc.h; sourceTree = "<group>"; };
 		3C72BD3C1C0E7A560001A91B /* Lrc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lrc.m; sourceTree = "<group>"; };
@@ -74,9 +79,9 @@
 		3CF955091C1135D5003BD528 /* 走在冷风中.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "走在冷风中.lrc"; path = "../../../resource/走在冷风中.lrc"; sourceTree = "<group>"; };
 		3CF9550B1C1135DE003BD528 /* 一次就好.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "一次就好.lrc"; path = "../../../resource/一次就好.lrc"; sourceTree = "<group>"; };
 		3CF9550D1C1135E8003BD528 /* 稳稳的幸福.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "稳稳的幸福.lrc"; path = "../../../resource/稳稳的幸福.lrc"; sourceTree = "<group>"; };
-		3CF9550F1C113608003BD528 /* 走在冷风中.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "走在冷风中.mp3"; path = "../../../resource/走在冷风中.mp3"; sourceTree = "<group>"; };
-		3CF955111C11360E003BD528 /* 一次就好.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "一次就好.mp3"; path = "../../../resource/一次就好.mp3"; sourceTree = "<group>"; };
-		3CF955131C113618003BD528 /* 稳稳的幸福.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "稳稳的幸福.mp3"; path = "../../../resource/稳稳的幸福.mp3"; sourceTree = "<group>"; };
+		3CF955151C118D75003BD528 /* 走在冷风中.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "走在冷风中.mp3"; sourceTree = "<group>"; };
+		3CF955161C118D75003BD528 /* 一次就好.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "一次就好.mp3"; sourceTree = "<group>"; };
+		3CF955171C118D75003BD528 /* 稳稳的幸福.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "稳稳的幸福.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +102,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C68B63B1C1968BF00C33A6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C68B63C1C1968EA00C33A6C /* MusicTableViewCell.h */,
+				3C68B63D1C1968EA00C33A6C /* MusicTableViewCell.m */,
+				3C68B63E1C1968EA00C33A6C /* MusicTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		3C7604CF1C0D4D920022468B /* music */ = {
 			isa = PBXGroup;
 			children = (
-				3CF9550F1C113608003BD528 /* 走在冷风中.mp3 */,
-				3CF955131C113618003BD528 /* 稳稳的幸福.mp3 */,
-				3CF955111C11360E003BD528 /* 一次就好.mp3 */,
+				3CF955151C118D75003BD528 /* 走在冷风中.mp3 */,
+				3CF955161C118D75003BD528 /* 一次就好.mp3 */,
+				3CF955171C118D75003BD528 /* 稳稳的幸福.mp3 */,
 				3C72BD501C0F272D0001A91B /* 爱情转移.mp3 */,
 			);
 			name = music;
@@ -134,6 +149,10 @@
 		3C7604D51C0D50FD0022468B /* VIewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				3C704A321C0FEC4B000E46E0 /* MusicTableCell.h */,
+				3C704A331C0FEC4B000E46E0 /* MusicTableCell.m */,
+				3C8217141C0C608400D0D0C8 /* ViewController.h */,
+				3C8217151C0C608400D0D0C8 /* ViewController.m */,
 			);
 			name = VIewControllers;
 			sourceTree = "<group>";
@@ -170,14 +189,11 @@
 		3C82170C1C0C608400D0D0C8 /* musicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				3C68B63B1C1968BF00C33A6C /* Views */,
 				3C7604D61C0D51180022468B /* Models */,
 				3C7604D51C0D50FD0022468B /* VIewControllers */,
 				3C8217111C0C608400D0D0C8 /* AppDelegate.h */,
 				3C8217121C0C608400D0D0C8 /* AppDelegate.m */,
-				3C704A321C0FEC4B000E46E0 /* TableCell.h */,
-				3C704A331C0FEC4B000E46E0 /* TableCell.m */,
-				3C8217141C0C608400D0D0C8 /* ViewController.h */,
-				3C8217151C0C608400D0D0C8 /* ViewController.m */,
 				3C8217171C0C608400D0D0C8 /* Main.storyboard */,
 				3C82171A1C0C608400D0D0C8 /* Images.xcassets */,
 				3C82171C1C0C608400D0D0C8 /* LaunchScreen.xib */,
@@ -296,23 +312,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF955141C113618003BD528 /* 稳稳的幸福.mp3 in Resources */,
 				3CF9550E1C1135E8003BD528 /* 稳稳的幸福.lrc in Resources */,
 				3C72BD471C0F26CC0001A91B /* 爱情转移.lrc in Resources */,
 				3CF9550C1C1135DE003BD528 /* 一次就好.lrc in Resources */,
-				3CF955101C113608003BD528 /* 走在冷风中.mp3 in Resources */,
+				3C68B6401C1968EA00C33A6C /* MusicTableViewCell.xib in Resources */,
+				3CF9551A1C118D75003BD528 /* 稳稳的幸福.mp3 in Resources */,
 				3C704A361C105C30000E46E0 /* 透明.png in Resources */,
 				3CF954FE1C113566003BD528 /* 爱情转移.png in Resources */,
+				3CF955191C118D75003BD528 /* 一次就好.mp3 in Resources */,
 				3C8217191C0C608400D0D0C8 /* Main.storyboard in Resources */,
 				3C82171E1C0C608400D0D0C8 /* LaunchScreen.xib in Resources */,
 				3CF955061C1135BA003BD528 /* 一次就好.png in Resources */,
 				3C72BD511C0F272D0001A91B /* 爱情转移.mp3 in Resources */,
 				3C82171B1C0C608400D0D0C8 /* Images.xcassets in Resources */,
 				3CF955041C1135AD003BD528 /* 稳稳的幸福.png in Resources */,
+				3CF955181C118D75003BD528 /* 走在冷风中.mp3 in Resources */,
 				3CF9550A1C1135D5003BD528 /* 走在冷风中.lrc in Resources */,
 				3CF955081C1135C7003BD528 /* 走在冷风中.png in Resources */,
 				3C7604D41C0D4E980022468B /* musicRecource.plist in Resources */,
-				3CF955121C11360E003BD528 /* 一次就好.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,8 +350,9 @@
 				3C8217161C0C608400D0D0C8 /* ViewController.m in Sources */,
 				3C8217131C0C608400D0D0C8 /* AppDelegate.m in Sources */,
 				3C8217101C0C608400D0D0C8 /* main.m in Sources */,
+				3C68B63F1C1968EA00C33A6C /* MusicTableViewCell.m in Sources */,
 				3C72BD3D1C0E7A560001A91B /* Lrc.m in Sources */,
-				3C704A341C0FEC4B000E46E0 /* TableCell.m in Sources */,
+				3C704A341C0FEC4B000E46E0 /* MusicTableCell.m in Sources */,
 				3C7604DA1C0D514A0022468B /* Models.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

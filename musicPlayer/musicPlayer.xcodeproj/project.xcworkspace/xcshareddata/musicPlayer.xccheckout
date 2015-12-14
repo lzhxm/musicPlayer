@@ -14,6 +14,8 @@
 		<string>github.com:lzhxm/My.git</string>
 		<key>1EC4F491FFD138B7E7F9876FB15DD526E30D46FA</key>
 		<string>github.com:lzhxm/My.git</string>
+		<key>6E2DE023F054FA20038C1941ADEB7FA9D690CDEE</key>
+		<string>github.com:lzhxm/musicPlayer.git</string>
 		<key>90F1A72BFB93830D87390F058D9F3A0014946E1D</key>
 		<string>github.com:lzhxm/ri.git</string>
 	</dict>
@@ -25,15 +27,17 @@
 		<string>../../../../My</string>
 		<key>1EC4F491FFD138B7E7F9876FB15DD526E30D46FA</key>
 		<string>../../../..</string>
-		<key>90F1A72BFB93830D87390F058D9F3A0014946E1D</key>
+		<key>6E2DE023F054FA20038C1941ADEB7FA9D690CDEE</key>
 		<string>../../..</string>
+		<key>90F1A72BFB93830D87390F058D9F3A0014946E1D</key>
+		<string>../../../../r</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:lzhxm/ri.git</string>
+	<string>github.com:lzhxm/musicPlayer.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>90F1A72BFB93830D87390F058D9F3A0014946E1D</string>
+	<string>6E2DE023F054FA20038C1941ADEB7FA9D690CDEE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -43,6 +47,14 @@
 			<string>1EC4F491FFD138B7E7F9876FB15DD526E30D46FA</string>
 			<key>IDESourceControlWCCName</key>
 			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6E2DE023F054FA20038C1941ADEB7FA9D690CDEE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>musicApp</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

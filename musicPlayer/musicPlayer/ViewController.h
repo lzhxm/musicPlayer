@@ -11,13 +11,14 @@
 #import "Models.h"
 #import "Lrc.h"
 
+
 @interface ViewController : UIViewController
 
 @property (nonatomic,strong) AVAudioPlayer *player;
-@property (nonatomic,strong) NSMutableArray *mutableArray;
-@property (nonatomic,strong) UILabel *label;
+@property (nonatomic,strong) NSMutableArray *musicArray;//模型数组
+@property (nonatomic,strong) UILabel *label;//歌名
 @property (nonatomic,strong) UIImageView *imageView;
-@property (nonatomic,strong) UISlider *volumeSlider;
+@property (nonatomic,strong) UISlider *volumeSlider;//声音条
 @property (nonatomic) NSInteger  integer;//数组索引
 @property (nonatomic,strong) UIButton *playButton;
 @property (nonatomic,strong) UITableView *tableView;
@@ -27,7 +28,6 @@
 @property (nonatomic,strong) UISlider *timeSlider;//播放进度
 @property (nonatomic,strong) UILabel *label1;//已播放时长
 @property (nonatomic,strong) UILabel *label2;//总时长
-@property (nonatomic,strong) void (^changeValue) (Models *modelValue);
 @property (nonatomic,strong) Models *model;
 
 @end
