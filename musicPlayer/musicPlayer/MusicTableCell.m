@@ -15,9 +15,9 @@
 @property (nonatomic,strong) ViewController *palyController;
 @property (nonatomic,strong) UISearchController *searchController;
 @property (nonatomic,strong) UISearchBar *searchBar;
-@property (nonatomic,strong) NSArray *resultArray;
-@property (nonatomic) BOOL isSearching;
-
+@property (nonatomic,strong) NSArray *resultArray;//存放搜索结果的数组
+@property (nonatomic) BOOL isSearching;//搜索状态
+@property (nonatomic,strong) UITableView *tableView;
 @end
 
 static NSString *identifier = @"cell";
@@ -44,21 +44,23 @@ static NSString *identifier = @"cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) style:UITableViewStylePlain];
+    [self.view addSubview:_tableView];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
-    self.tableView.rowHeight = 80;
+    self.tableView.rowHeight = 60;
+    self.view.backgroundColor = [UIColor whiteColor];
     self.navigationController.delegate = self;
-    
+    //self.navigationController.navigationBar.translucent = NO;
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"透明"] forBarMetrics:UIBarMetricsDefault];
     self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
     [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
     self.navigationItem.title = @"歌曲列表";
     [self.tableView registerNib:[UINib nibWithNibName:@"MusicTableViewCell" bundle:nil] forCellReuseIdentifier:identifier];
     _searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, 375, 50)];
+    
     self.tableView.tableHeaderView = _searchBar;
     _searchBar.delegate = self;
-    _searchController.hidesNavigationBarDuringPresentation = YES;
-    _searchController.dimsBackgroundDuringPresentation = YES;
     _searchBar.placeholder = @"搜索本地歌曲";
 }
 
@@ -94,6 +96,7 @@ static NSString *identifier = @"cell";
         cell = [[MusicTableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier];
         
     }
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     if (_isSearching) {
         Models *model1 = self.resultArray[indexPath.row];
         cell.model = model1;
@@ -116,6 +119,7 @@ static NSString *identifier = @"cell";
     }else{
     _palyController.model = self.mutableArray[indexPath.row];
     [_palyController setValue:_palyController.model forKeyPath:@"model"];
+    [_palyController setValue:@(indexPath.row) forKeyPath:@"integer"];
     }
     UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style: UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.backBarButtonItem = backItem;

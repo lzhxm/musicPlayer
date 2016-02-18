@@ -12,6 +12,7 @@
 @interface MusicTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *imgView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *singerLabel;
 
 @property (nonatomic,strong) Models *model;
 @end

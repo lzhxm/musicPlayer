@@ -28,12 +28,14 @@
                 NSString *timeStr = [[linArray objectAtIndex:0] substringWithRange:NSMakeRange(1, 5)];
                 [lrcDict setObject:lrcStr forKey:timeStr];
                 [timeArray addObject:timeStr];
-                
+               
             }
         }
     }
     NSDictionary *dict = @{@"lrcDict":lrcDict,@"timeArray":timeArray};
     return dict;
+
+    
 }
 //时间转换
 - (NSUInteger)changeTime:(NSString *)str
@@ -41,7 +43,7 @@
     NSArray *array = [str componentsSeparatedByString:@":"];
     return [array[0] intValue]*60 + [array[1] intValue];
 }
-
+//时间显示
 - (NSString *)timeIntival:(NSInteger)time
 {
     if (time % 60 <10) {

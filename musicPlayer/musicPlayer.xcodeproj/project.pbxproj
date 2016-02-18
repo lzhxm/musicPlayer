@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C66909F1C1FA30700F0E920 /* 以后的以后.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C6690971C1FA30700F0E920 /* 以后的以后.mp3 */; };
+		3C6690A01C1FA30700F0E920 /* 冬天的秘密.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C6690981C1FA30700F0E920 /* 冬天的秘密.mp3 */; };
+		3C6690A11C1FA30700F0E920 /* 其实都没有.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C6690991C1FA30700F0E920 /* 其实都没有.mp3 */; };
+		3C6690A21C1FA30700F0E920 /* 背对背拥抱.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C66909A1C1FA30700F0E920 /* 背对背拥抱.mp3 */; };
+		3C6690A31C1FA30700F0E920 /* 偶阵雨.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C66909B1C1FA30700F0E920 /* 偶阵雨.mp3 */; };
+		3C6690A41C1FA30700F0E920 /* 李白.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C66909C1C1FA30700F0E920 /* 李白.mp3 */; };
+		3C6690A51C1FA30700F0E920 /* 我从草原来.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C66909D1C1FA30700F0E920 /* 我从草原来.mp3 */; };
+		3C6690A61C1FA30700F0E920 /* 独家记忆.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C66909E1C1FA30700F0E920 /* 独家记忆.mp3 */; };
+		3C6690AF1C1FA3DD00F0E920 /* 以后的以后.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3C6690A71C1FA3DD00F0E920 /* 以后的以后.lrc */; };
+		3C6690B01C1FA3DD00F0E920 /* 我从草原来.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3C6690A81C1FA3DD00F0E920 /* 我从草原来.lrc */; };
+		3C6690B11C1FA3DD00F0E920 /* 其实都没有.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3C6690A91C1FA3DD00F0E920 /* 其实都没有.lrc */; };
+		3C6690B21C1FA3DD00F0E920 /* 偶阵雨.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3C6690AA1C1FA3DD00F0E920 /* 偶阵雨.lrc */; };
+		3C6690B31C1FA3DD00F0E920 /* 李白.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3C6690AB1C1FA3DD00F0E920 /* 李白.lrc */; };
+		3C6690B41C1FA3DD00F0E920 /* 独家记忆.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3C6690AC1C1FA3DD00F0E920 /* 独家记忆.lrc */; };
+		3C6690B51C1FA3DD00F0E920 /* 冬天的秘密.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3C6690AD1C1FA3DD00F0E920 /* 冬天的秘密.lrc */; };
+		3C6690B61C1FA3DD00F0E920 /* 背对背拥抱.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3C6690AE1C1FA3DD00F0E920 /* 背对背拥抱.lrc */; };
 		3C68B63F1C1968EA00C33A6C /* MusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C68B63D1C1968EA00C33A6C /* MusicTableViewCell.m */; };
 		3C68B6401C1968EA00C33A6C /* MusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C68B63E1C1968EA00C33A6C /* MusicTableViewCell.xib */; };
 		3C704A341C0FEC4B000E46E0 /* MusicTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C704A331C0FEC4B000E46E0 /* MusicTableCell.m */; };
 		3C704A361C105C30000E46E0 /* 透明.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C704A351C105C30000E46E0 /* 透明.png */; };
 		3C72BD3D1C0E7A560001A91B /* Lrc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C72BD3C1C0E7A560001A91B /* Lrc.m */; };
-		3C72BD471C0F26CC0001A91B /* 爱情转移.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3C72BD461C0F26CC0001A91B /* 爱情转移.lrc */; };
 		3C72BD511C0F272D0001A91B /* 爱情转移.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3C72BD501C0F272D0001A91B /* 爱情转移.mp3 */; };
 		3C7604D41C0D4E980022468B /* musicRecource.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C7604D31C0D4E980022468B /* musicRecource.plist */; };
 		3C7604DA1C0D514A0022468B /* Models.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7604D91C0D514A0022468B /* Models.m */; };
@@ -23,21 +38,124 @@
 		3C82171B1C0C608400D0D0C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C82171A1C0C608400D0D0C8 /* Images.xcassets */; };
 		3C82171E1C0C608400D0D0C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C82171C1C0C608400D0D0C8 /* LaunchScreen.xib */; };
 		3C82172A1C0C608400D0D0C8 /* musicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8217291C0C608400D0D0C8 /* musicPlayerTests.m */; };
-		3CC29DC61C1E560B00C37DB9 /* 播放.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DC51C1E560B00C37DB9 /* 播放.png */; };
-		3CC29DC81C1E561000C37DB9 /* 上一首.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DC71C1E561000C37DB9 /* 上一首.png */; };
-		3CC29DCA1C1E561400C37DB9 /* 下一首.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DC91C1E561400C37DB9 /* 下一首.png */; };
-		3CC29DCC1C1E561800C37DB9 /* 暂停.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DCB1C1E561800C37DB9 /* 暂停.png */; };
-		3CC29DD01C1E615D00C37DB9 /* 声音.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DCF1C1E615D00C37DB9 /* 声音.png */; };
+		3CC29DD21C1EABB400C37DB9 /* 下一首.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DD11C1EABB400C37DB9 /* 下一首.png */; };
+		3CC29DD41C1EABC000C37DB9 /* 暂停.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DD31C1EABC000C37DB9 /* 暂停.png */; };
+		3CC29DD61C1EABC500C37DB9 /* 播放.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DD51C1EABC500C37DB9 /* 播放.png */; };
+		3CC29DD81C1EABCA00C37DB9 /* 上一首.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DD71C1EABCA00C37DB9 /* 上一首.png */; };
+		3CC29DDA1C1EABD000C37DB9 /* 声音.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DD91C1EABD000C37DB9 /* 声音.png */; };
+		3CC29DE81C1EF53800C37DB9 /* 爱情转移.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3CC29DE41C1EF53800C37DB9 /* 爱情转移.lrc */; };
+		3CD4FBE41C35277000BB63A9 /* 冬天的秘密.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4FBDC1C35277000BB63A9 /* 冬天的秘密.png */; };
+		3CD4FBE51C35277000BB63A9 /* 其实都没有.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4FBDD1C35277000BB63A9 /* 其实都没有.png */; };
+		3CD4FBE61C35277000BB63A9 /* 以后的以后.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4FBDE1C35277000BB63A9 /* 以后的以后.png */; };
+		3CD4FBE71C35277000BB63A9 /* 独家记忆.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4FBDF1C35277000BB63A9 /* 独家记忆.png */; };
+		3CD4FBE91C35277000BB63A9 /* 李白.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4FBE11C35277000BB63A9 /* 李白.png */; };
+		3CD4FBEA1C35277000BB63A9 /* 背对背拥抱.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4FBE21C35277000BB63A9 /* 背对背拥抱.png */; };
+		3CD4FBEB1C35277000BB63A9 /* 我从草原来.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4FBE31C35277000BB63A9 /* 我从草原来.png */; };
+		3CD4FBED1C3527FC00BB63A9 /* 偶阵雨.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4FBEC1C3527FC00BB63A9 /* 偶阵雨.png */; };
+		3CD4FBEF1C352BAA00BB63A9 /* 封面.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4FBEE1C352BAA00BB63A9 /* 封面.png */; };
+		3CD4FBF11C352CA000BB63A9 /* 背景.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CD4FBF01C352CA000BB63A9 /* 背景.jpg */; };
+		3CF5DFE31C2AB2C500A084AF /* add_friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF7E1C2AB2C500A084AF /* add_friends.png */; };
+		3CF5DFE41C2AB2C500A084AF /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF7F1C2AB2C500A084AF /* Arrow.png */; };
+		3CF5DFE51C2AB2C500A084AF /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF801C2AB2C500A084AF /* background.jpg */; };
+		3CF5DFE61C2AB2C500A084AF /* background副本 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF811C2AB2C500A084AF /* background副本 2.jpg */; };
+		3CF5DFE71C2AB2C500A084AF /* background副本 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF821C2AB2C500A084AF /* background副本 3.jpg */; };
+		3CF5DFE81C2AB2C500A084AF /* background副本.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF831C2AB2C500A084AF /* background副本.jpg */; };
+		3CF5DFE91C2AB2C500A084AF /* btn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF841C2AB2C500A084AF /* btn_back.png */; };
+		3CF5DFEA1C2AB2C500A084AF /* btn_face.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF851C2AB2C500A084AF /* btn_face.png */; };
+		3CF5DFEB1C2AB2C500A084AF /* btn_face_forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF861C2AB2C500A084AF /* btn_face_forward.png */; };
+		3CF5DFEC1C2AB2C500A084AF /* btn_forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF871C2AB2C500A084AF /* btn_forward@2x.png */; };
+		3CF5DFED1C2AB2C500A084AF /* btn_vc_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF881C2AB2C500A084AF /* btn_vc_back.png */; };
+		3CF5DFEE1C2AB2C500A084AF /* btn_vc_repeatall.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF891C2AB2C500A084AF /* btn_vc_repeatall.png */; };
+		3CF5DFEF1C2AB2C500A084AF /* btn_vc_repeatnormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF8A1C2AB2C500A084AF /* btn_vc_repeatnormal.png */; };
+		3CF5DFF01C2AB2C500A084AF /* btn_vc_repeatone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF8B1C2AB2C500A084AF /* btn_vc_repeatone.png */; };
+		3CF5DFF11C2AB2C500A084AF /* btn_vc_repeatshuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF8C1C2AB2C500A084AF /* btn_vc_repeatshuffle.png */; };
+		3CF5DFF21C2AB2C500A084AF /* btn_vs_next.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF8D1C2AB2C500A084AF /* btn_vs_next.png */; };
+		3CF5DFF31C2AB2C500A084AF /* button_next.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF8E1C2AB2C500A084AF /* button_next.png */; };
+		3CF5DFF41C2AB2C500A084AF /* button_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF8F1C2AB2C500A084AF /* button_pause.png */; };
+		3CF5DFF51C2AB2C500A084AF /* button_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF901C2AB2C500A084AF /* button_play.png */; };
+		3CF5DFF61C2AB2C500A084AF /* card_bkg_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF911C2AB2C500A084AF /* card_bkg_blue.png */; };
+		3CF5DFF71C2AB2C500A084AF /* card_bkg_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF921C2AB2C500A084AF /* card_bkg_white.png */; };
+		3CF5DFF81C2AB2C500A084AF /* cell_favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF931C2AB2C500A084AF /* cell_favorite.png */; };
+		3CF5DFF91C2AB2C500A084AF /* cell_favorite_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF941C2AB2C500A084AF /* cell_favorite_list.png */; };
+		3CF5DFFA1C2AB2C500A084AF /* cell_icon_collected~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF951C2AB2C500A084AF /* cell_icon_collected~iphone.png */; };
+		3CF5DFFB1C2AB2C500A084AF /* cell_icon_uncollected~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF961C2AB2C500A084AF /* cell_icon_uncollected~iphone.png */; };
+		3CF5DFFC1C2AB2C500A084AF /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF971C2AB2C500A084AF /* close.png */; };
+		3CF5DFFD1C2AB2C500A084AF /* create_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF981C2AB2C500A084AF /* create_list.png */; };
+		3CF5DFFE1C2AB2C500A084AF /* DetailPagePause.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF991C2AB2C500A084AF /* DetailPagePause.png */; };
+		3CF5DFFF1C2AB2C500A084AF /* DetailPagePlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF9A1C2AB2C500A084AF /* DetailPagePlay.png */; };
+		3CF5E0001C2AB2C500A084AF /* down_all_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF9B1C2AB2C500A084AF /* down_all_pause.png */; };
+		3CF5E0011C2AB2C500A084AF /* down_all_start.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF9C1C2AB2C500A084AF /* down_all_start.png */; };
+		3CF5E0021C2AB2C500A084AF /* eq_bkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF9D1C2AB2C500A084AF /* eq_bkg@2x.png */; };
+		3CF5E0031C2AB2C500A084AF /* eq_btn_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF9E1C2AB2C500A084AF /* eq_btn_b.png */; };
+		3CF5E0041C2AB2C500A084AF /* eq_controllerpad_cellbkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DF9F1C2AB2C500A084AF /* eq_controllerpad_cellbkg.png */; };
+		3CF5E0051C2AB2C500A084AF /* home_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFA01C2AB2C500A084AF /* home_arrow.png */; };
+		3CF5E0061C2AB2C500A084AF /* ib_delete_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFA11C2AB2C500A084AF /* ib_delete_flag.png */; };
+		3CF5E0071C2AB2C500A084AF /* ib_select_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFA21C2AB2C500A084AF /* ib_select_flag.png */; };
+		3CF5E0081C2AB2C500A084AF /* icon_focused_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFA31C2AB2C500A084AF /* icon_focused_selected.png */; };
+		3CF5E0091C2AB2C500A084AF /* icon_matched.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFA41C2AB2C500A084AF /* icon_matched.png */; };
+		3CF5E00A1C2AB2C500A084AF /* icon_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFA51C2AB2C500A084AF /* icon_pause.png */; };
+		3CF5E00B1C2AB2C500A084AF /* icon_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFA61C2AB2C500A084AF /* icon_play.png */; };
+		3CF5E00C1C2AB2C500A084AF /* img_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFA71C2AB2C500A084AF /* img_thumb.png */; };
+		3CF5E00D1C2AB2C500A084AF /* img_wave_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFA81C2AB2C500A084AF /* img_wave_pause.png */; };
+		3CF5E00E1C2AB2C500A084AF /* img_wave_pause_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFA91C2AB2C500A084AF /* img_wave_pause_selected.png */; };
+		3CF5E00F1C2AB2C500A084AF /* item_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFAA1C2AB2C500A084AF /* item_delete.png */; };
+		3CF5E0101C2AB2C500A084AF /* list_menu_add_to_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFAB1C2AB2C500A084AF /* list_menu_add_to_list.png */; };
+		3CF5E0111C2AB2C500A084AF /* list_menu_add_to_list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFAC1C2AB2C500A084AF /* list_menu_add_to_list@2x.png */; };
+		3CF5E0121C2AB2C500A084AF /* list_menu_add_to_list@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFAD1C2AB2C500A084AF /* list_menu_add_to_list@3x.png */; };
+		3CF5E0131C2AB2C500A084AF /* list_menu_del_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFAE1C2AB2C500A084AF /* list_menu_del_file.png */; };
+		3CF5E0141C2AB2C500A084AF /* list_menu_del_file@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFAF1C2AB2C500A084AF /* list_menu_del_file@2x.png */; };
+		3CF5E0151C2AB2C500A084AF /* list_menu_del_file@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFB01C2AB2C500A084AF /* list_menu_del_file@3x.png */; };
+		3CF5E0161C2AB2C500A084AF /* list_menu_download.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFB11C2AB2C500A084AF /* list_menu_download.png */; };
+		3CF5E0171C2AB2C500A084AF /* list_menu_download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFB21C2AB2C500A084AF /* list_menu_download@2x.png */; };
+		3CF5E0181C2AB2C500A084AF /* list_menu_download@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFB31C2AB2C500A084AF /* list_menu_download@3x.png */; };
+		3CF5E0191C2AB2C500A084AF /* list_menu_favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFB41C2AB2C500A084AF /* list_menu_favorite.png */; };
+		3CF5E01A1C2AB2C500A084AF /* list_menu_favorite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFB51C2AB2C500A084AF /* list_menu_favorite@2x.png */; };
+		3CF5E01B1C2AB2C500A084AF /* list_menu_favorite@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFB61C2AB2C500A084AF /* list_menu_favorite@3x.png */; };
+		3CF5E01C1C2AB2C500A084AF /* list_menu_remove_from_list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFB71C2AB2C500A084AF /* list_menu_remove_from_list@2x.png */; };
+		3CF5E01D1C2AB2C500A084AF /* list_menu_remove_from_list@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFB81C2AB2C500A084AF /* list_menu_remove_from_list@3x.png */; };
+		3CF5E01E1C2AB2C500A084AF /* list_menu_rename_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFB91C2AB2C500A084AF /* list_menu_rename_list.png */; };
+		3CF5E01F1C2AB2C500A084AF /* list_menu_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFBA1C2AB2C500A084AF /* list_menu_share.png */; };
+		3CF5E0201C2AB2C500A084AF /* list_menu_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFBB1C2AB2C500A084AF /* list_menu_share@2x.png */; };
+		3CF5E0211C2AB2C500A084AF /* list_menu_share@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFBC1C2AB2C500A084AF /* list_menu_share@3x.png */; };
+		3CF5E0221C2AB2C500A084AF /* list_menu_unfavorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFBD1C2AB2C500A084AF /* list_menu_unfavorite.png */; };
+		3CF5E0231C2AB2C500A084AF /* list_menu_unfavorite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFBE1C2AB2C500A084AF /* list_menu_unfavorite@2x.png */; };
+		3CF5E0241C2AB2C500A084AF /* list_menu_unfavorite@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFBF1C2AB2C500A084AF /* list_menu_unfavorite@3x.png */; };
+		3CF5E0251C2AB2C500A084AF /* load-failed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFC01C2AB2C500A084AF /* load-failed.png */; };
+		3CF5E0261C2AB2C500A084AF /* load-ing.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFC11C2AB2C500A084AF /* load-ing.png */; };
+		3CF5E0271C2AB2C500A084AF /* lyric_color_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFC21C2AB2C500A084AF /* lyric_color_selected.png */; };
+		3CF5E0281C2AB2C500A084AF /* lyric_instant_adjust.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFC31C2AB2C500A084AF /* lyric_instant_adjust.png */; };
+		3CF5E0291C2AB2C500A084AF /* lyric_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFC41C2AB2C500A084AF /* lyric_search.png */; };
+		3CF5E02A1C2AB2C500A084AF /* lyric_speed_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFC51C2AB2C500A084AF /* lyric_speed_down.png */; };
+		3CF5E02B1C2AB2C500A084AF /* lyric_speed_reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFC61C2AB2C500A084AF /* lyric_speed_reset.png */; };
+		3CF5E02C1C2AB2C500A084AF /* lyric_speed_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFC71C2AB2C500A084AF /* lyric_speed_up.png */; };
+		3CF5E02D1C2AB2C500A084AF /* menu_comment_remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFC81C2AB2C500A084AF /* menu_comment_remove.png */; };
+		3CF5E02E1C2AB2C500A084AF /* musiccircle_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFC91C2AB2C500A084AF /* musiccircle_pause.png */; };
+		3CF5E02F1C2AB2C500A084AF /* musiccircle_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFCA1C2AB2C500A084AF /* musiccircle_play.png */; };
+		3CF5E0301C2AB2C500A084AF /* mv_cover_play_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFCB1C2AB2C500A084AF /* mv_cover_play_icon@2x.png */; };
+		3CF5E0311C2AB2C500A084AF /* my_home_marked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFCC1C2AB2C500A084AF /* my_home_marked.png */; };
+		3CF5E0321C2AB2C500A084AF /* mysonglist_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFCD1C2AB2C500A084AF /* mysonglist_play.png */; };
+		3CF5E0331C2AB2C500A084AF /* onlinemusic_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFCE1C2AB2C500A084AF /* onlinemusic_search.png */; };
+		3CF5E0341C2AB2C500A084AF /* onlinemusic_search_associate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFCF1C2AB2C500A084AF /* onlinemusic_search_associate.png */; };
+		3CF5E0351C2AB2C500A084AF /* onlinemusic_search_history_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFD01C2AB2C500A084AF /* onlinemusic_search_history_delete.png */; };
+		3CF5E0361C2AB2C500A084AF /* PausePressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFD11C2AB2C500A084AF /* PausePressed.png */; };
+		3CF5E0371C2AB2C500A084AF /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFD21C2AB2C500A084AF /* play.png */; };
+		3CF5E0381C2AB2C500A084AF /* play_bar_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFD31C2AB2C500A084AF /* play_bar_pause.png */; };
+		3CF5E0391C2AB2C500A084AF /* play_bar_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFD41C2AB2C500A084AF /* play_bar_play.png */; };
+		3CF5E03A1C2AB2C500A084AF /* play_bar_play_next.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFD51C2AB2C500A084AF /* play_bar_play_next.png */; };
+		3CF5E03B1C2AB2C500A084AF /* play_bar_play_next2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFD61C2AB2C500A084AF /* play_bar_play_next2.png */; };
+		3CF5E03C1C2AB2C500A084AF /* playlists-button-heart-set.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFD71C2AB2C500A084AF /* playlists-button-heart-set.png */; };
+		3CF5E03D1C2AB2C500A084AF /* playlists-button-heart-unset.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFD81C2AB2C500A084AF /* playlists-button-heart-unset.png */; };
+		3CF5E03E1C2AB2C500A084AF /* playlists-button-readytopause.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFD91C2AB2C500A084AF /* playlists-button-readytopause.png */; };
+		3CF5E03F1C2AB2C500A084AF /* playlists-button-readytoplay.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFDA1C2AB2C500A084AF /* playlists-button-readytoplay.png */; };
+		3CF5E0401C2AB2C500A084AF /* playlists-button-refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFDB1C2AB2C500A084AF /* playlists-button-refresh@2x.png */; };
+		3CF5E0411C2AB2C500A084AF /* playlists-button-refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFDC1C2AB2C500A084AF /* playlists-button-refresh@3x.png */; };
+		3CF5E0421C2AB2C500A084AF /* PlayPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFDD1C2AB2C500A084AF /* PlayPressed.png */; };
+		3CF5E0431C2AB2C500A084AF /* singer_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFDE1C2AB2C500A084AF /* singer_default.png */; };
+		3CF5E0441C2AB2C500A084AF /* sort_artist.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFDF1C2AB2C500A084AF /* sort_artist.png */; };
+		3CF5E0451C2AB2C500A084AF /* splash_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFE01C2AB2C500A084AF /* splash_mute_off.png */; };
+		3CF5E0461C2AB2C500A084AF /* splash_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFE11C2AB2C500A084AF /* splash_mute_on.png */; };
+		3CF5E0471C2AB2C500A084AF /* splash_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF5DFE21C2AB2C500A084AF /* splash_share.png */; };
 		3CF954FE1C113566003BD528 /* 爱情转移.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF954FD1C113566003BD528 /* 爱情转移.png */; };
-		3CF955041C1135AD003BD528 /* 稳稳的幸福.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF955031C1135AD003BD528 /* 稳稳的幸福.png */; };
-		3CF955061C1135BA003BD528 /* 一次就好.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF955051C1135BA003BD528 /* 一次就好.png */; };
-		3CF955081C1135C7003BD528 /* 走在冷风中.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF955071C1135C7003BD528 /* 走在冷风中.png */; };
-		3CF9550A1C1135D5003BD528 /* 走在冷风中.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3CF955091C1135D5003BD528 /* 走在冷风中.lrc */; };
-		3CF9550C1C1135DE003BD528 /* 一次就好.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3CF9550B1C1135DE003BD528 /* 一次就好.lrc */; };
-		3CF9550E1C1135E8003BD528 /* 稳稳的幸福.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 3CF9550D1C1135E8003BD528 /* 稳稳的幸福.lrc */; };
-		3CF955181C118D75003BD528 /* 走在冷风中.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CF955151C118D75003BD528 /* 走在冷风中.mp3 */; };
-		3CF955191C118D75003BD528 /* 一次就好.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CF955161C118D75003BD528 /* 一次就好.mp3 */; };
-		3CF9551A1C118D75003BD528 /* 稳稳的幸福.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CF955171C118D75003BD528 /* 稳稳的幸福.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +169,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C6690971C1FA30700F0E920 /* 以后的以后.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "以后的以后.mp3"; sourceTree = "<group>"; };
+		3C6690981C1FA30700F0E920 /* 冬天的秘密.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "冬天的秘密.mp3"; sourceTree = "<group>"; };
+		3C6690991C1FA30700F0E920 /* 其实都没有.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "其实都没有.mp3"; sourceTree = "<group>"; };
+		3C66909A1C1FA30700F0E920 /* 背对背拥抱.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "背对背拥抱.mp3"; sourceTree = "<group>"; };
+		3C66909B1C1FA30700F0E920 /* 偶阵雨.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "偶阵雨.mp3"; sourceTree = "<group>"; };
+		3C66909C1C1FA30700F0E920 /* 李白.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "李白.mp3"; sourceTree = "<group>"; };
+		3C66909D1C1FA30700F0E920 /* 我从草原来.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "我从草原来.mp3"; sourceTree = "<group>"; };
+		3C66909E1C1FA30700F0E920 /* 独家记忆.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "独家记忆.mp3"; sourceTree = "<group>"; };
+		3C6690A71C1FA3DD00F0E920 /* 以后的以后.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "以后的以后.lrc"; sourceTree = "<group>"; };
+		3C6690A81C1FA3DD00F0E920 /* 我从草原来.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "我从草原来.lrc"; sourceTree = "<group>"; };
+		3C6690A91C1FA3DD00F0E920 /* 其实都没有.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "其实都没有.lrc"; sourceTree = "<group>"; };
+		3C6690AA1C1FA3DD00F0E920 /* 偶阵雨.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "偶阵雨.lrc"; sourceTree = "<group>"; };
+		3C6690AB1C1FA3DD00F0E920 /* 李白.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "李白.lrc"; sourceTree = "<group>"; };
+		3C6690AC1C1FA3DD00F0E920 /* 独家记忆.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "独家记忆.lrc"; sourceTree = "<group>"; };
+		3C6690AD1C1FA3DD00F0E920 /* 冬天的秘密.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "冬天的秘密.lrc"; sourceTree = "<group>"; };
+		3C6690AE1C1FA3DD00F0E920 /* 背对背拥抱.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "背对背拥抱.lrc"; sourceTree = "<group>"; };
 		3C68B63C1C1968EA00C33A6C /* MusicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableViewCell.h; sourceTree = "<group>"; };
 		3C68B63D1C1968EA00C33A6C /* MusicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewCell.m; sourceTree = "<group>"; };
 		3C68B63E1C1968EA00C33A6C /* MusicTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicTableViewCell.xib; sourceTree = "<group>"; };
@@ -59,7 +193,6 @@
 		3C704A351C105C30000E46E0 /* 透明.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "透明.png"; sourceTree = "<group>"; };
 		3C72BD3B1C0E7A560001A91B /* Lrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lrc.h; sourceTree = "<group>"; };
 		3C72BD3C1C0E7A560001A91B /* Lrc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lrc.m; sourceTree = "<group>"; };
-		3C72BD461C0F26CC0001A91B /* 爱情转移.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "爱情转移.lrc"; sourceTree = "<group>"; };
 		3C72BD501C0F272D0001A91B /* 爱情转移.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "爱情转移.mp3"; sourceTree = "<group>"; };
 		3C7604D31C0D4E980022468B /* musicRecource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = musicRecource.plist; sourceTree = "<group>"; };
 		3C7604D81C0D514A0022468B /* Models.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Models.h; sourceTree = "<group>"; };
@@ -77,21 +210,124 @@
 		3C8217231C0C608400D0D0C8 /* musicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8217281C0C608400D0D0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C8217291C0C608400D0D0C8 /* musicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = musicPlayerTests.m; sourceTree = "<group>"; };
-		3CC29DC51C1E560B00C37DB9 /* 播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放.png"; sourceTree = "<group>"; };
-		3CC29DC71C1E561000C37DB9 /* 上一首.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上一首.png"; sourceTree = "<group>"; };
-		3CC29DC91C1E561400C37DB9 /* 下一首.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下一首.png"; sourceTree = "<group>"; };
-		3CC29DCB1C1E561800C37DB9 /* 暂停.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂停.png"; sourceTree = "<group>"; };
-		3CC29DCF1C1E615D00C37DB9 /* 声音.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "声音.png"; sourceTree = "<group>"; };
+		3CC29DD11C1EABB400C37DB9 /* 下一首.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下一首.png"; sourceTree = "<group>"; };
+		3CC29DD31C1EABC000C37DB9 /* 暂停.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂停.png"; sourceTree = "<group>"; };
+		3CC29DD51C1EABC500C37DB9 /* 播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放.png"; sourceTree = "<group>"; };
+		3CC29DD71C1EABCA00C37DB9 /* 上一首.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上一首.png"; sourceTree = "<group>"; };
+		3CC29DD91C1EABD000C37DB9 /* 声音.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "声音.png"; sourceTree = "<group>"; };
+		3CC29DE41C1EF53800C37DB9 /* 爱情转移.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "爱情转移.lrc"; sourceTree = "<group>"; };
+		3CD4FBDC1C35277000BB63A9 /* 冬天的秘密.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "冬天的秘密.png"; sourceTree = "<group>"; };
+		3CD4FBDD1C35277000BB63A9 /* 其实都没有.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "其实都没有.png"; sourceTree = "<group>"; };
+		3CD4FBDE1C35277000BB63A9 /* 以后的以后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "以后的以后.png"; sourceTree = "<group>"; };
+		3CD4FBDF1C35277000BB63A9 /* 独家记忆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "独家记忆.png"; sourceTree = "<group>"; };
+		3CD4FBE11C35277000BB63A9 /* 李白.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "李白.png"; sourceTree = "<group>"; };
+		3CD4FBE21C35277000BB63A9 /* 背对背拥抱.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背对背拥抱.png"; sourceTree = "<group>"; };
+		3CD4FBE31C35277000BB63A9 /* 我从草原来.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我从草原来.png"; sourceTree = "<group>"; };
+		3CD4FBEC1C3527FC00BB63A9 /* 偶阵雨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "偶阵雨.png"; sourceTree = "<group>"; };
+		3CD4FBEE1C352BAA00BB63A9 /* 封面.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "封面.png"; sourceTree = "<group>"; };
+		3CD4FBF01C352CA000BB63A9 /* 背景.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景.jpg"; sourceTree = "<group>"; };
+		3CF5DF7E1C2AB2C500A084AF /* add_friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_friends.png; sourceTree = "<group>"; };
+		3CF5DF7F1C2AB2C500A084AF /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
+		3CF5DF801C2AB2C500A084AF /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		3CF5DF811C2AB2C500A084AF /* background副本 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background副本 2.jpg"; sourceTree = "<group>"; };
+		3CF5DF821C2AB2C500A084AF /* background副本 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background副本 3.jpg"; sourceTree = "<group>"; };
+		3CF5DF831C2AB2C500A084AF /* background副本.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background副本.jpg"; sourceTree = "<group>"; };
+		3CF5DF841C2AB2C500A084AF /* btn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_back.png; sourceTree = "<group>"; };
+		3CF5DF851C2AB2C500A084AF /* btn_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_face.png; sourceTree = "<group>"; };
+		3CF5DF861C2AB2C500A084AF /* btn_face_forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_face_forward.png; sourceTree = "<group>"; };
+		3CF5DF871C2AB2C500A084AF /* btn_forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_forward@2x.png"; sourceTree = "<group>"; };
+		3CF5DF881C2AB2C500A084AF /* btn_vc_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_vc_back.png; sourceTree = "<group>"; };
+		3CF5DF891C2AB2C500A084AF /* btn_vc_repeatall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_vc_repeatall.png; sourceTree = "<group>"; };
+		3CF5DF8A1C2AB2C500A084AF /* btn_vc_repeatnormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_vc_repeatnormal.png; sourceTree = "<group>"; };
+		3CF5DF8B1C2AB2C500A084AF /* btn_vc_repeatone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_vc_repeatone.png; sourceTree = "<group>"; };
+		3CF5DF8C1C2AB2C500A084AF /* btn_vc_repeatshuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_vc_repeatshuffle.png; sourceTree = "<group>"; };
+		3CF5DF8D1C2AB2C500A084AF /* btn_vs_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_vs_next.png; sourceTree = "<group>"; };
+		3CF5DF8E1C2AB2C500A084AF /* button_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_next.png; sourceTree = "<group>"; };
+		3CF5DF8F1C2AB2C500A084AF /* button_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_pause.png; sourceTree = "<group>"; };
+		3CF5DF901C2AB2C500A084AF /* button_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_play.png; sourceTree = "<group>"; };
+		3CF5DF911C2AB2C500A084AF /* card_bkg_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_bkg_blue.png; sourceTree = "<group>"; };
+		3CF5DF921C2AB2C500A084AF /* card_bkg_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_bkg_white.png; sourceTree = "<group>"; };
+		3CF5DF931C2AB2C500A084AF /* cell_favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_favorite.png; sourceTree = "<group>"; };
+		3CF5DF941C2AB2C500A084AF /* cell_favorite_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_favorite_list.png; sourceTree = "<group>"; };
+		3CF5DF951C2AB2C500A084AF /* cell_icon_collected~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell_icon_collected~iphone.png"; sourceTree = "<group>"; };
+		3CF5DF961C2AB2C500A084AF /* cell_icon_uncollected~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell_icon_uncollected~iphone.png"; sourceTree = "<group>"; };
+		3CF5DF971C2AB2C500A084AF /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		3CF5DF981C2AB2C500A084AF /* create_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = create_list.png; sourceTree = "<group>"; };
+		3CF5DF991C2AB2C500A084AF /* DetailPagePause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DetailPagePause.png; sourceTree = "<group>"; };
+		3CF5DF9A1C2AB2C500A084AF /* DetailPagePlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DetailPagePlay.png; sourceTree = "<group>"; };
+		3CF5DF9B1C2AB2C500A084AF /* down_all_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_all_pause.png; sourceTree = "<group>"; };
+		3CF5DF9C1C2AB2C500A084AF /* down_all_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_all_start.png; sourceTree = "<group>"; };
+		3CF5DF9D1C2AB2C500A084AF /* eq_bkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eq_bkg@2x.png"; sourceTree = "<group>"; };
+		3CF5DF9E1C2AB2C500A084AF /* eq_btn_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eq_btn_b.png; sourceTree = "<group>"; };
+		3CF5DF9F1C2AB2C500A084AF /* eq_controllerpad_cellbkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eq_controllerpad_cellbkg.png; sourceTree = "<group>"; };
+		3CF5DFA01C2AB2C500A084AF /* home_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_arrow.png; sourceTree = "<group>"; };
+		3CF5DFA11C2AB2C500A084AF /* ib_delete_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ib_delete_flag.png; sourceTree = "<group>"; };
+		3CF5DFA21C2AB2C500A084AF /* ib_select_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ib_select_flag.png; sourceTree = "<group>"; };
+		3CF5DFA31C2AB2C500A084AF /* icon_focused_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_focused_selected.png; sourceTree = "<group>"; };
+		3CF5DFA41C2AB2C500A084AF /* icon_matched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_matched.png; sourceTree = "<group>"; };
+		3CF5DFA51C2AB2C500A084AF /* icon_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pause.png; sourceTree = "<group>"; };
+		3CF5DFA61C2AB2C500A084AF /* icon_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_play.png; sourceTree = "<group>"; };
+		3CF5DFA71C2AB2C500A084AF /* img_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_thumb.png; sourceTree = "<group>"; };
+		3CF5DFA81C2AB2C500A084AF /* img_wave_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_wave_pause.png; sourceTree = "<group>"; };
+		3CF5DFA91C2AB2C500A084AF /* img_wave_pause_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_wave_pause_selected.png; sourceTree = "<group>"; };
+		3CF5DFAA1C2AB2C500A084AF /* item_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_delete.png; sourceTree = "<group>"; };
+		3CF5DFAB1C2AB2C500A084AF /* list_menu_add_to_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_menu_add_to_list.png; sourceTree = "<group>"; };
+		3CF5DFAC1C2AB2C500A084AF /* list_menu_add_to_list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_menu_add_to_list@2x.png"; sourceTree = "<group>"; };
+		3CF5DFAD1C2AB2C500A084AF /* list_menu_add_to_list@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_menu_add_to_list@3x.png"; sourceTree = "<group>"; };
+		3CF5DFAE1C2AB2C500A084AF /* list_menu_del_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_menu_del_file.png; sourceTree = "<group>"; };
+		3CF5DFAF1C2AB2C500A084AF /* list_menu_del_file@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_menu_del_file@2x.png"; sourceTree = "<group>"; };
+		3CF5DFB01C2AB2C500A084AF /* list_menu_del_file@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_menu_del_file@3x.png"; sourceTree = "<group>"; };
+		3CF5DFB11C2AB2C500A084AF /* list_menu_download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_menu_download.png; sourceTree = "<group>"; };
+		3CF5DFB21C2AB2C500A084AF /* list_menu_download@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_menu_download@2x.png"; sourceTree = "<group>"; };
+		3CF5DFB31C2AB2C500A084AF /* list_menu_download@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_menu_download@3x.png"; sourceTree = "<group>"; };
+		3CF5DFB41C2AB2C500A084AF /* list_menu_favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_menu_favorite.png; sourceTree = "<group>"; };
+		3CF5DFB51C2AB2C500A084AF /* list_menu_favorite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_menu_favorite@2x.png"; sourceTree = "<group>"; };
+		3CF5DFB61C2AB2C500A084AF /* list_menu_favorite@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_menu_favorite@3x.png"; sourceTree = "<group>"; };
+		3CF5DFB71C2AB2C500A084AF /* list_menu_remove_from_list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_menu_remove_from_list@2x.png"; sourceTree = "<group>"; };
+		3CF5DFB81C2AB2C500A084AF /* list_menu_remove_from_list@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_menu_remove_from_list@3x.png"; sourceTree = "<group>"; };
+		3CF5DFB91C2AB2C500A084AF /* list_menu_rename_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_menu_rename_list.png; sourceTree = "<group>"; };
+		3CF5DFBA1C2AB2C500A084AF /* list_menu_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_menu_share.png; sourceTree = "<group>"; };
+		3CF5DFBB1C2AB2C500A084AF /* list_menu_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_menu_share@2x.png"; sourceTree = "<group>"; };
+		3CF5DFBC1C2AB2C500A084AF /* list_menu_share@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_menu_share@3x.png"; sourceTree = "<group>"; };
+		3CF5DFBD1C2AB2C500A084AF /* list_menu_unfavorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_menu_unfavorite.png; sourceTree = "<group>"; };
+		3CF5DFBE1C2AB2C500A084AF /* list_menu_unfavorite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_menu_unfavorite@2x.png"; sourceTree = "<group>"; };
+		3CF5DFBF1C2AB2C500A084AF /* list_menu_unfavorite@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_menu_unfavorite@3x.png"; sourceTree = "<group>"; };
+		3CF5DFC01C2AB2C500A084AF /* load-failed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "load-failed.png"; sourceTree = "<group>"; };
+		3CF5DFC11C2AB2C500A084AF /* load-ing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "load-ing.png"; sourceTree = "<group>"; };
+		3CF5DFC21C2AB2C500A084AF /* lyric_color_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lyric_color_selected.png; sourceTree = "<group>"; };
+		3CF5DFC31C2AB2C500A084AF /* lyric_instant_adjust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lyric_instant_adjust.png; sourceTree = "<group>"; };
+		3CF5DFC41C2AB2C500A084AF /* lyric_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lyric_search.png; sourceTree = "<group>"; };
+		3CF5DFC51C2AB2C500A084AF /* lyric_speed_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lyric_speed_down.png; sourceTree = "<group>"; };
+		3CF5DFC61C2AB2C500A084AF /* lyric_speed_reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lyric_speed_reset.png; sourceTree = "<group>"; };
+		3CF5DFC71C2AB2C500A084AF /* lyric_speed_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lyric_speed_up.png; sourceTree = "<group>"; };
+		3CF5DFC81C2AB2C500A084AF /* menu_comment_remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_comment_remove.png; sourceTree = "<group>"; };
+		3CF5DFC91C2AB2C500A084AF /* musiccircle_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musiccircle_pause.png; sourceTree = "<group>"; };
+		3CF5DFCA1C2AB2C500A084AF /* musiccircle_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musiccircle_play.png; sourceTree = "<group>"; };
+		3CF5DFCB1C2AB2C500A084AF /* mv_cover_play_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mv_cover_play_icon@2x.png"; sourceTree = "<group>"; };
+		3CF5DFCC1C2AB2C500A084AF /* my_home_marked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_home_marked.png; sourceTree = "<group>"; };
+		3CF5DFCD1C2AB2C500A084AF /* mysonglist_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mysonglist_play.png; sourceTree = "<group>"; };
+		3CF5DFCE1C2AB2C500A084AF /* onlinemusic_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onlinemusic_search.png; sourceTree = "<group>"; };
+		3CF5DFCF1C2AB2C500A084AF /* onlinemusic_search_associate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onlinemusic_search_associate.png; sourceTree = "<group>"; };
+		3CF5DFD01C2AB2C500A084AF /* onlinemusic_search_history_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onlinemusic_search_history_delete.png; sourceTree = "<group>"; };
+		3CF5DFD11C2AB2C500A084AF /* PausePressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PausePressed.png; sourceTree = "<group>"; };
+		3CF5DFD21C2AB2C500A084AF /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		3CF5DFD31C2AB2C500A084AF /* play_bar_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_bar_pause.png; sourceTree = "<group>"; };
+		3CF5DFD41C2AB2C500A084AF /* play_bar_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_bar_play.png; sourceTree = "<group>"; };
+		3CF5DFD51C2AB2C500A084AF /* play_bar_play_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_bar_play_next.png; sourceTree = "<group>"; };
+		3CF5DFD61C2AB2C500A084AF /* play_bar_play_next2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_bar_play_next2.png; sourceTree = "<group>"; };
+		3CF5DFD71C2AB2C500A084AF /* playlists-button-heart-set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playlists-button-heart-set.png"; sourceTree = "<group>"; };
+		3CF5DFD81C2AB2C500A084AF /* playlists-button-heart-unset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playlists-button-heart-unset.png"; sourceTree = "<group>"; };
+		3CF5DFD91C2AB2C500A084AF /* playlists-button-readytopause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playlists-button-readytopause.png"; sourceTree = "<group>"; };
+		3CF5DFDA1C2AB2C500A084AF /* playlists-button-readytoplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playlists-button-readytoplay.png"; sourceTree = "<group>"; };
+		3CF5DFDB1C2AB2C500A084AF /* playlists-button-refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playlists-button-refresh@2x.png"; sourceTree = "<group>"; };
+		3CF5DFDC1C2AB2C500A084AF /* playlists-button-refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playlists-button-refresh@3x.png"; sourceTree = "<group>"; };
+		3CF5DFDD1C2AB2C500A084AF /* PlayPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayPressed.png; sourceTree = "<group>"; };
+		3CF5DFDE1C2AB2C500A084AF /* singer_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singer_default.png; sourceTree = "<group>"; };
+		3CF5DFDF1C2AB2C500A084AF /* sort_artist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sort_artist.png; sourceTree = "<group>"; };
+		3CF5DFE01C2AB2C500A084AF /* splash_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_mute_off.png; sourceTree = "<group>"; };
+		3CF5DFE11C2AB2C500A084AF /* splash_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_mute_on.png; sourceTree = "<group>"; };
+		3CF5DFE21C2AB2C500A084AF /* splash_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_share.png; sourceTree = "<group>"; };
 		3CF954FD1C113566003BD528 /* 爱情转移.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "爱情转移.png"; sourceTree = "<group>"; };
-		3CF955031C1135AD003BD528 /* 稳稳的幸福.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "稳稳的幸福.png"; path = "../../../resource/稳稳的幸福.png"; sourceTree = "<group>"; };
-		3CF955051C1135BA003BD528 /* 一次就好.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "一次就好.png"; path = "../../../resource/一次就好.png"; sourceTree = "<group>"; };
-		3CF955071C1135C7003BD528 /* 走在冷风中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "走在冷风中.png"; path = "../../../resource/走在冷风中.png"; sourceTree = "<group>"; };
-		3CF955091C1135D5003BD528 /* 走在冷风中.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "走在冷风中.lrc"; path = "../../../resource/走在冷风中.lrc"; sourceTree = "<group>"; };
-		3CF9550B1C1135DE003BD528 /* 一次就好.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "一次就好.lrc"; path = "../../../resource/一次就好.lrc"; sourceTree = "<group>"; };
-		3CF9550D1C1135E8003BD528 /* 稳稳的幸福.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "稳稳的幸福.lrc"; path = "../../../resource/稳稳的幸福.lrc"; sourceTree = "<group>"; };
-		3CF955151C118D75003BD528 /* 走在冷风中.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "走在冷风中.mp3"; sourceTree = "<group>"; };
-		3CF955161C118D75003BD528 /* 一次就好.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "一次就好.mp3"; sourceTree = "<group>"; };
-		3CF955171C118D75003BD528 /* 稳稳的幸福.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "稳稳的幸福.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,9 +361,14 @@
 		3C7604CF1C0D4D920022468B /* music */ = {
 			isa = PBXGroup;
 			children = (
-				3CF955151C118D75003BD528 /* 走在冷风中.mp3 */,
-				3CF955161C118D75003BD528 /* 一次就好.mp3 */,
-				3CF955171C118D75003BD528 /* 稳稳的幸福.mp3 */,
+				3C6690971C1FA30700F0E920 /* 以后的以后.mp3 */,
+				3C6690981C1FA30700F0E920 /* 冬天的秘密.mp3 */,
+				3C6690991C1FA30700F0E920 /* 其实都没有.mp3 */,
+				3C66909A1C1FA30700F0E920 /* 背对背拥抱.mp3 */,
+				3C66909B1C1FA30700F0E920 /* 偶阵雨.mp3 */,
+				3C66909C1C1FA30700F0E920 /* 李白.mp3 */,
+				3C66909D1C1FA30700F0E920 /* 我从草原来.mp3 */,
+				3C66909E1C1FA30700F0E920 /* 独家记忆.mp3 */,
 				3C72BD501C0F272D0001A91B /* 爱情转移.mp3 */,
 			);
 			name = music;
@@ -136,10 +377,15 @@
 		3C7604D01C0D4DB80022468B /* lrc */ = {
 			isa = PBXGroup;
 			children = (
-				3CF9550B1C1135DE003BD528 /* 一次就好.lrc */,
-				3CF9550D1C1135E8003BD528 /* 稳稳的幸福.lrc */,
-				3CF955091C1135D5003BD528 /* 走在冷风中.lrc */,
-				3C72BD461C0F26CC0001A91B /* 爱情转移.lrc */,
+				3C6690A71C1FA3DD00F0E920 /* 以后的以后.lrc */,
+				3C6690A81C1FA3DD00F0E920 /* 我从草原来.lrc */,
+				3C6690A91C1FA3DD00F0E920 /* 其实都没有.lrc */,
+				3C6690AA1C1FA3DD00F0E920 /* 偶阵雨.lrc */,
+				3C6690AB1C1FA3DD00F0E920 /* 李白.lrc */,
+				3C6690AC1C1FA3DD00F0E920 /* 独家记忆.lrc */,
+				3C6690AD1C1FA3DD00F0E920 /* 冬天的秘密.lrc */,
+				3C6690AE1C1FA3DD00F0E920 /* 背对背拥抱.lrc */,
+				3CC29DE41C1EF53800C37DB9 /* 爱情转移.lrc */,
 			);
 			name = lrc;
 			sourceTree = "<group>";
@@ -147,16 +393,23 @@
 		3C7604D11C0D4DD20022468B /* picture */ = {
 			isa = PBXGroup;
 			children = (
-				3CC29DCF1C1E615D00C37DB9 /* 声音.png */,
-				3CC29DCB1C1E561800C37DB9 /* 暂停.png */,
-				3CC29DC91C1E561400C37DB9 /* 下一首.png */,
-				3CC29DC71C1E561000C37DB9 /* 上一首.png */,
-				3CC29DC51C1E560B00C37DB9 /* 播放.png */,
+				3CD4FBF01C352CA000BB63A9 /* 背景.jpg */,
+				3CD4FBEE1C352BAA00BB63A9 /* 封面.png */,
+				3CD4FBEC1C3527FC00BB63A9 /* 偶阵雨.png */,
+				3CD4FBDC1C35277000BB63A9 /* 冬天的秘密.png */,
+				3CD4FBDD1C35277000BB63A9 /* 其实都没有.png */,
+				3CD4FBDE1C35277000BB63A9 /* 以后的以后.png */,
+				3CD4FBDF1C35277000BB63A9 /* 独家记忆.png */,
+				3CD4FBE11C35277000BB63A9 /* 李白.png */,
+				3CD4FBE21C35277000BB63A9 /* 背对背拥抱.png */,
+				3CD4FBE31C35277000BB63A9 /* 我从草原来.png */,
+				3CC29DD91C1EABD000C37DB9 /* 声音.png */,
+				3CC29DD71C1EABCA00C37DB9 /* 上一首.png */,
+				3CC29DD51C1EABC500C37DB9 /* 播放.png */,
+				3CC29DD31C1EABC000C37DB9 /* 暂停.png */,
+				3CC29DD11C1EABB400C37DB9 /* 下一首.png */,
 				3CF954FD1C113566003BD528 /* 爱情转移.png */,
 				3C704A351C105C30000E46E0 /* 透明.png */,
-				3CF955051C1135BA003BD528 /* 一次就好.png */,
-				3CF955031C1135AD003BD528 /* 稳稳的幸福.png */,
-				3CF955071C1135C7003BD528 /* 走在冷风中.png */,
 			);
 			name = picture;
 			sourceTree = "<group>";
@@ -220,6 +473,7 @@
 		3C82170D1C0C608400D0D0C8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3CF5DF7D1C2AB2C500A084AF /* resource */,
 				3C7604D11C0D4DD20022468B /* picture */,
 				3C7604D01C0D4DB80022468B /* lrc */,
 				3C7604CF1C0D4D920022468B /* music */,
@@ -245,6 +499,114 @@
 				3C8217281C0C608400D0D0C8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CF5DF7D1C2AB2C500A084AF /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				3CF5DF7E1C2AB2C500A084AF /* add_friends.png */,
+				3CF5DF7F1C2AB2C500A084AF /* Arrow.png */,
+				3CF5DF801C2AB2C500A084AF /* background.jpg */,
+				3CF5DF811C2AB2C500A084AF /* background副本 2.jpg */,
+				3CF5DF821C2AB2C500A084AF /* background副本 3.jpg */,
+				3CF5DF831C2AB2C500A084AF /* background副本.jpg */,
+				3CF5DF841C2AB2C500A084AF /* btn_back.png */,
+				3CF5DF851C2AB2C500A084AF /* btn_face.png */,
+				3CF5DF861C2AB2C500A084AF /* btn_face_forward.png */,
+				3CF5DF871C2AB2C500A084AF /* btn_forward@2x.png */,
+				3CF5DF881C2AB2C500A084AF /* btn_vc_back.png */,
+				3CF5DF891C2AB2C500A084AF /* btn_vc_repeatall.png */,
+				3CF5DF8A1C2AB2C500A084AF /* btn_vc_repeatnormal.png */,
+				3CF5DF8B1C2AB2C500A084AF /* btn_vc_repeatone.png */,
+				3CF5DF8C1C2AB2C500A084AF /* btn_vc_repeatshuffle.png */,
+				3CF5DF8D1C2AB2C500A084AF /* btn_vs_next.png */,
+				3CF5DF8E1C2AB2C500A084AF /* button_next.png */,
+				3CF5DF8F1C2AB2C500A084AF /* button_pause.png */,
+				3CF5DF901C2AB2C500A084AF /* button_play.png */,
+				3CF5DF911C2AB2C500A084AF /* card_bkg_blue.png */,
+				3CF5DF921C2AB2C500A084AF /* card_bkg_white.png */,
+				3CF5DF931C2AB2C500A084AF /* cell_favorite.png */,
+				3CF5DF941C2AB2C500A084AF /* cell_favorite_list.png */,
+				3CF5DF951C2AB2C500A084AF /* cell_icon_collected~iphone.png */,
+				3CF5DF961C2AB2C500A084AF /* cell_icon_uncollected~iphone.png */,
+				3CF5DF971C2AB2C500A084AF /* close.png */,
+				3CF5DF981C2AB2C500A084AF /* create_list.png */,
+				3CF5DF991C2AB2C500A084AF /* DetailPagePause.png */,
+				3CF5DF9A1C2AB2C500A084AF /* DetailPagePlay.png */,
+				3CF5DF9B1C2AB2C500A084AF /* down_all_pause.png */,
+				3CF5DF9C1C2AB2C500A084AF /* down_all_start.png */,
+				3CF5DF9D1C2AB2C500A084AF /* eq_bkg@2x.png */,
+				3CF5DF9E1C2AB2C500A084AF /* eq_btn_b.png */,
+				3CF5DF9F1C2AB2C500A084AF /* eq_controllerpad_cellbkg.png */,
+				3CF5DFA01C2AB2C500A084AF /* home_arrow.png */,
+				3CF5DFA11C2AB2C500A084AF /* ib_delete_flag.png */,
+				3CF5DFA21C2AB2C500A084AF /* ib_select_flag.png */,
+				3CF5DFA31C2AB2C500A084AF /* icon_focused_selected.png */,
+				3CF5DFA41C2AB2C500A084AF /* icon_matched.png */,
+				3CF5DFA51C2AB2C500A084AF /* icon_pause.png */,
+				3CF5DFA61C2AB2C500A084AF /* icon_play.png */,
+				3CF5DFA71C2AB2C500A084AF /* img_thumb.png */,
+				3CF5DFA81C2AB2C500A084AF /* img_wave_pause.png */,
+				3CF5DFA91C2AB2C500A084AF /* img_wave_pause_selected.png */,
+				3CF5DFAA1C2AB2C500A084AF /* item_delete.png */,
+				3CF5DFAB1C2AB2C500A084AF /* list_menu_add_to_list.png */,
+				3CF5DFAC1C2AB2C500A084AF /* list_menu_add_to_list@2x.png */,
+				3CF5DFAD1C2AB2C500A084AF /* list_menu_add_to_list@3x.png */,
+				3CF5DFAE1C2AB2C500A084AF /* list_menu_del_file.png */,
+				3CF5DFAF1C2AB2C500A084AF /* list_menu_del_file@2x.png */,
+				3CF5DFB01C2AB2C500A084AF /* list_menu_del_file@3x.png */,
+				3CF5DFB11C2AB2C500A084AF /* list_menu_download.png */,
+				3CF5DFB21C2AB2C500A084AF /* list_menu_download@2x.png */,
+				3CF5DFB31C2AB2C500A084AF /* list_menu_download@3x.png */,
+				3CF5DFB41C2AB2C500A084AF /* list_menu_favorite.png */,
+				3CF5DFB51C2AB2C500A084AF /* list_menu_favorite@2x.png */,
+				3CF5DFB61C2AB2C500A084AF /* list_menu_favorite@3x.png */,
+				3CF5DFB71C2AB2C500A084AF /* list_menu_remove_from_list@2x.png */,
+				3CF5DFB81C2AB2C500A084AF /* list_menu_remove_from_list@3x.png */,
+				3CF5DFB91C2AB2C500A084AF /* list_menu_rename_list.png */,
+				3CF5DFBA1C2AB2C500A084AF /* list_menu_share.png */,
+				3CF5DFBB1C2AB2C500A084AF /* list_menu_share@2x.png */,
+				3CF5DFBC1C2AB2C500A084AF /* list_menu_share@3x.png */,
+				3CF5DFBD1C2AB2C500A084AF /* list_menu_unfavorite.png */,
+				3CF5DFBE1C2AB2C500A084AF /* list_menu_unfavorite@2x.png */,
+				3CF5DFBF1C2AB2C500A084AF /* list_menu_unfavorite@3x.png */,
+				3CF5DFC01C2AB2C500A084AF /* load-failed.png */,
+				3CF5DFC11C2AB2C500A084AF /* load-ing.png */,
+				3CF5DFC21C2AB2C500A084AF /* lyric_color_selected.png */,
+				3CF5DFC31C2AB2C500A084AF /* lyric_instant_adjust.png */,
+				3CF5DFC41C2AB2C500A084AF /* lyric_search.png */,
+				3CF5DFC51C2AB2C500A084AF /* lyric_speed_down.png */,
+				3CF5DFC61C2AB2C500A084AF /* lyric_speed_reset.png */,
+				3CF5DFC71C2AB2C500A084AF /* lyric_speed_up.png */,
+				3CF5DFC81C2AB2C500A084AF /* menu_comment_remove.png */,
+				3CF5DFC91C2AB2C500A084AF /* musiccircle_pause.png */,
+				3CF5DFCA1C2AB2C500A084AF /* musiccircle_play.png */,
+				3CF5DFCB1C2AB2C500A084AF /* mv_cover_play_icon@2x.png */,
+				3CF5DFCC1C2AB2C500A084AF /* my_home_marked.png */,
+				3CF5DFCD1C2AB2C500A084AF /* mysonglist_play.png */,
+				3CF5DFCE1C2AB2C500A084AF /* onlinemusic_search.png */,
+				3CF5DFCF1C2AB2C500A084AF /* onlinemusic_search_associate.png */,
+				3CF5DFD01C2AB2C500A084AF /* onlinemusic_search_history_delete.png */,
+				3CF5DFD11C2AB2C500A084AF /* PausePressed.png */,
+				3CF5DFD21C2AB2C500A084AF /* play.png */,
+				3CF5DFD31C2AB2C500A084AF /* play_bar_pause.png */,
+				3CF5DFD41C2AB2C500A084AF /* play_bar_play.png */,
+				3CF5DFD51C2AB2C500A084AF /* play_bar_play_next.png */,
+				3CF5DFD61C2AB2C500A084AF /* play_bar_play_next2.png */,
+				3CF5DFD71C2AB2C500A084AF /* playlists-button-heart-set.png */,
+				3CF5DFD81C2AB2C500A084AF /* playlists-button-heart-unset.png */,
+				3CF5DFD91C2AB2C500A084AF /* playlists-button-readytopause.png */,
+				3CF5DFDA1C2AB2C500A084AF /* playlists-button-readytoplay.png */,
+				3CF5DFDB1C2AB2C500A084AF /* playlists-button-refresh@2x.png */,
+				3CF5DFDC1C2AB2C500A084AF /* playlists-button-refresh@3x.png */,
+				3CF5DFDD1C2AB2C500A084AF /* PlayPressed.png */,
+				3CF5DFDE1C2AB2C500A084AF /* singer_default.png */,
+				3CF5DFDF1C2AB2C500A084AF /* sort_artist.png */,
+				3CF5DFE01C2AB2C500A084AF /* splash_mute_off.png */,
+				3CF5DFE11C2AB2C500A084AF /* splash_mute_on.png */,
+				3CF5DFE21C2AB2C500A084AF /* splash_share.png */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,29 +689,147 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF9550E1C1135E8003BD528 /* 稳稳的幸福.lrc in Resources */,
-				3CC29DD01C1E615D00C37DB9 /* 声音.png in Resources */,
-				3C72BD471C0F26CC0001A91B /* 爱情转移.lrc in Resources */,
-				3CF9550C1C1135DE003BD528 /* 一次就好.lrc in Resources */,
+				3CD4FBEF1C352BAA00BB63A9 /* 封面.png in Resources */,
+				3CF5E0471C2AB2C500A084AF /* splash_share.png in Resources */,
+				3CF5E0011C2AB2C500A084AF /* down_all_start.png in Resources */,
+				3CF5E0341C2AB2C500A084AF /* onlinemusic_search_associate.png in Resources */,
+				3CF5DFED1C2AB2C500A084AF /* btn_vc_back.png in Resources */,
+				3CC29DD81C1EABCA00C37DB9 /* 上一首.png in Resources */,
+				3CF5E02C1C2AB2C500A084AF /* lyric_speed_up.png in Resources */,
+				3CF5E0401C2AB2C500A084AF /* playlists-button-refresh@2x.png in Resources */,
+				3CF5E00D1C2AB2C500A084AF /* img_wave_pause.png in Resources */,
+				3CF5E0151C2AB2C500A084AF /* list_menu_del_file@3x.png in Resources */,
+				3CF5DFF21C2AB2C500A084AF /* btn_vs_next.png in Resources */,
+				3CF5E0071C2AB2C500A084AF /* ib_select_flag.png in Resources */,
+				3CF5DFEA1C2AB2C500A084AF /* btn_face.png in Resources */,
+				3CC29DDA1C1EABD000C37DB9 /* 声音.png in Resources */,
+				3CF5E0461C2AB2C500A084AF /* splash_mute_on.png in Resources */,
+				3CF5DFF51C2AB2C500A084AF /* button_play.png in Resources */,
+				3CF5E0121C2AB2C500A084AF /* list_menu_add_to_list@3x.png in Resources */,
+				3CF5E00A1C2AB2C500A084AF /* icon_pause.png in Resources */,
+				3CF5DFEC1C2AB2C500A084AF /* btn_forward@2x.png in Resources */,
+				3CF5DFE81C2AB2C500A084AF /* background副本.jpg in Resources */,
+				3CF5E0051C2AB2C500A084AF /* home_arrow.png in Resources */,
+				3CF5E0161C2AB2C500A084AF /* list_menu_download.png in Resources */,
+				3CF5DFF41C2AB2C500A084AF /* button_pause.png in Resources */,
+				3CF5E0421C2AB2C500A084AF /* PlayPressed.png in Resources */,
+				3CD4FBEB1C35277000BB63A9 /* 我从草原来.png in Resources */,
+				3CF5E00B1C2AB2C500A084AF /* icon_play.png in Resources */,
+				3CF5E0001C2AB2C500A084AF /* down_all_pause.png in Resources */,
+				3CF5E0251C2AB2C500A084AF /* load-failed.png in Resources */,
+				3C6690A11C1FA30700F0E920 /* 其实都没有.mp3 in Resources */,
+				3CF5DFE91C2AB2C500A084AF /* btn_back.png in Resources */,
 				3C68B6401C1968EA00C33A6C /* MusicTableViewCell.xib in Resources */,
-				3CF9551A1C118D75003BD528 /* 稳稳的幸福.mp3 in Resources */,
+				3CF5DFF91C2AB2C500A084AF /* cell_favorite_list.png in Resources */,
+				3CF5E0221C2AB2C500A084AF /* list_menu_unfavorite.png in Resources */,
+				3CF5E0241C2AB2C500A084AF /* list_menu_unfavorite@3x.png in Resources */,
+				3CF5E0381C2AB2C500A084AF /* play_bar_pause.png in Resources */,
+				3C6690A31C1FA30700F0E920 /* 偶阵雨.mp3 in Resources */,
+				3C66909F1C1FA30700F0E920 /* 以后的以后.mp3 in Resources */,
 				3C704A361C105C30000E46E0 /* 透明.png in Resources */,
+				3CF5E0111C2AB2C500A084AF /* list_menu_add_to_list@2x.png in Resources */,
+				3CF5E0081C2AB2C500A084AF /* icon_focused_selected.png in Resources */,
+				3CF5E0271C2AB2C500A084AF /* lyric_color_selected.png in Resources */,
 				3CF954FE1C113566003BD528 /* 爱情转移.png in Resources */,
-				3CC29DC61C1E560B00C37DB9 /* 播放.png in Resources */,
-				3CF955191C118D75003BD528 /* 一次就好.mp3 in Resources */,
+				3C6690B41C1FA3DD00F0E920 /* 独家记忆.lrc in Resources */,
+				3CF5E0411C2AB2C500A084AF /* playlists-button-refresh@3x.png in Resources */,
+				3CD4FBE51C35277000BB63A9 /* 其实都没有.png in Resources */,
+				3CF5E0331C2AB2C500A084AF /* onlinemusic_search.png in Resources */,
 				3C8217191C0C608400D0D0C8 /* Main.storyboard in Resources */,
+				3CF5DFE51C2AB2C500A084AF /* background.jpg in Resources */,
+				3CF5E0021C2AB2C500A084AF /* eq_bkg@2x.png in Resources */,
+				3C6690B51C1FA3DD00F0E920 /* 冬天的秘密.lrc in Resources */,
+				3CF5E01E1C2AB2C500A084AF /* list_menu_rename_list.png in Resources */,
+				3CF5E0261C2AB2C500A084AF /* load-ing.png in Resources */,
+				3C6690B61C1FA3DD00F0E920 /* 背对背拥抱.lrc in Resources */,
+				3C6690AF1C1FA3DD00F0E920 /* 以后的以后.lrc in Resources */,
 				3C82171E1C0C608400D0D0C8 /* LaunchScreen.xib in Resources */,
-				3CF955061C1135BA003BD528 /* 一次就好.png in Resources */,
+				3CF5E03F1C2AB2C500A084AF /* playlists-button-readytoplay.png in Resources */,
+				3CF5E0321C2AB2C500A084AF /* mysonglist_play.png in Resources */,
+				3C6690B21C1FA3DD00F0E920 /* 偶阵雨.lrc in Resources */,
+				3CF5E02D1C2AB2C500A084AF /* menu_comment_remove.png in Resources */,
+				3CF5E0201C2AB2C500A084AF /* list_menu_share@2x.png in Resources */,
+				3CF5E0231C2AB2C500A084AF /* list_menu_unfavorite@2x.png in Resources */,
+				3CF5E0451C2AB2C500A084AF /* splash_mute_off.png in Resources */,
+				3CF5E0351C2AB2C500A084AF /* onlinemusic_search_history_delete.png in Resources */,
+				3CF5E0291C2AB2C500A084AF /* lyric_search.png in Resources */,
+				3CF5E0281C2AB2C500A084AF /* lyric_instant_adjust.png in Resources */,
+				3CF5E02F1C2AB2C500A084AF /* musiccircle_play.png in Resources */,
+				3CF5E00F1C2AB2C500A084AF /* item_delete.png in Resources */,
+				3CF5DFFA1C2AB2C500A084AF /* cell_icon_collected~iphone.png in Resources */,
+				3CD4FBE71C35277000BB63A9 /* 独家记忆.png in Resources */,
+				3CF5DFFD1C2AB2C500A084AF /* create_list.png in Resources */,
+				3CF5E02E1C2AB2C500A084AF /* musiccircle_pause.png in Resources */,
+				3CF5E0101C2AB2C500A084AF /* list_menu_add_to_list.png in Resources */,
+				3CF5E0141C2AB2C500A084AF /* list_menu_del_file@2x.png in Resources */,
+				3CF5DFE61C2AB2C500A084AF /* background副本 2.jpg in Resources */,
+				3CF5E0061C2AB2C500A084AF /* ib_delete_flag.png in Resources */,
+				3CF5E0391C2AB2C500A084AF /* play_bar_play.png in Resources */,
+				3CD4FBE91C35277000BB63A9 /* 李白.png in Resources */,
+				3CF5DFF71C2AB2C500A084AF /* card_bkg_white.png in Resources */,
+				3CF5E0361C2AB2C500A084AF /* PausePressed.png in Resources */,
+				3CF5DFEF1C2AB2C500A084AF /* btn_vc_repeatnormal.png in Resources */,
+				3CC29DD21C1EABB400C37DB9 /* 下一首.png in Resources */,
+				3CD4FBF11C352CA000BB63A9 /* 背景.jpg in Resources */,
+				3CC29DE81C1EF53800C37DB9 /* 爱情转移.lrc in Resources */,
 				3C72BD511C0F272D0001A91B /* 爱情转移.mp3 in Resources */,
+				3CF5DFFE1C2AB2C500A084AF /* DetailPagePause.png in Resources */,
+				3CF5E0211C2AB2C500A084AF /* list_menu_share@3x.png in Resources */,
+				3CF5DFF31C2AB2C500A084AF /* button_next.png in Resources */,
+				3CF5DFFB1C2AB2C500A084AF /* cell_icon_uncollected~iphone.png in Resources */,
+				3CF5E0441C2AB2C500A084AF /* sort_artist.png in Resources */,
+				3CF5E01D1C2AB2C500A084AF /* list_menu_remove_from_list@3x.png in Resources */,
+				3CF5E0431C2AB2C500A084AF /* singer_default.png in Resources */,
+				3C6690A01C1FA30700F0E920 /* 冬天的秘密.mp3 in Resources */,
+				3CF5E03C1C2AB2C500A084AF /* playlists-button-heart-set.png in Resources */,
+				3CF5E0091C2AB2C500A084AF /* icon_matched.png in Resources */,
 				3C82171B1C0C608400D0D0C8 /* Images.xcassets in Resources */,
-				3CC29DC81C1E561000C37DB9 /* 上一首.png in Resources */,
-				3CF955041C1135AD003BD528 /* 稳稳的幸福.png in Resources */,
-				3CF955181C118D75003BD528 /* 走在冷风中.mp3 in Resources */,
-				3CF9550A1C1135D5003BD528 /* 走在冷风中.lrc in Resources */,
-				3CC29DCA1C1E561400C37DB9 /* 下一首.png in Resources */,
-				3CF955081C1135C7003BD528 /* 走在冷风中.png in Resources */,
+				3CF5E02B1C2AB2C500A084AF /* lyric_speed_reset.png in Resources */,
+				3CF5DFE31C2AB2C500A084AF /* add_friends.png in Resources */,
+				3C6690A61C1FA30700F0E920 /* 独家记忆.mp3 in Resources */,
+				3CF5E03D1C2AB2C500A084AF /* playlists-button-heart-unset.png in Resources */,
+				3C6690A21C1FA30700F0E920 /* 背对背拥抱.mp3 in Resources */,
+				3CF5E0041C2AB2C500A084AF /* eq_controllerpad_cellbkg.png in Resources */,
+				3CF5E0301C2AB2C500A084AF /* mv_cover_play_icon@2x.png in Resources */,
+				3CF5E0171C2AB2C500A084AF /* list_menu_download@2x.png in Resources */,
+				3C6690A41C1FA30700F0E920 /* 李白.mp3 in Resources */,
+				3CF5DFF81C2AB2C500A084AF /* cell_favorite.png in Resources */,
+				3CC29DD41C1EABC000C37DB9 /* 暂停.png in Resources */,
+				3CF5E00E1C2AB2C500A084AF /* img_wave_pause_selected.png in Resources */,
+				3CF5DFE41C2AB2C500A084AF /* Arrow.png in Resources */,
+				3CF5DFF01C2AB2C500A084AF /* btn_vc_repeatone.png in Resources */,
+				3CC29DD61C1EABC500C37DB9 /* 播放.png in Resources */,
+				3C6690A51C1FA30700F0E920 /* 我从草原来.mp3 in Resources */,
+				3CF5E00C1C2AB2C500A084AF /* img_thumb.png in Resources */,
+				3CF5E01C1C2AB2C500A084AF /* list_menu_remove_from_list@2x.png in Resources */,
+				3CD4FBE61C35277000BB63A9 /* 以后的以后.png in Resources */,
+				3CF5E03B1C2AB2C500A084AF /* play_bar_play_next2.png in Resources */,
+				3CF5DFF61C2AB2C500A084AF /* card_bkg_blue.png in Resources */,
+				3CD4FBE41C35277000BB63A9 /* 冬天的秘密.png in Resources */,
+				3CF5DFFC1C2AB2C500A084AF /* close.png in Resources */,
+				3CF5DFF11C2AB2C500A084AF /* btn_vc_repeatshuffle.png in Resources */,
+				3C6690B31C1FA3DD00F0E920 /* 李白.lrc in Resources */,
+				3CF5E03E1C2AB2C500A084AF /* playlists-button-readytopause.png in Resources */,
+				3CF5E0311C2AB2C500A084AF /* my_home_marked.png in Resources */,
+				3C6690B11C1FA3DD00F0E920 /* 其实都没有.lrc in Resources */,
+				3CF5E0371C2AB2C500A084AF /* play.png in Resources */,
+				3CF5E0191C2AB2C500A084AF /* list_menu_favorite.png in Resources */,
+				3CF5E0031C2AB2C500A084AF /* eq_btn_b.png in Resources */,
+				3CF5E03A1C2AB2C500A084AF /* play_bar_play_next.png in Resources */,
+				3CF5E01B1C2AB2C500A084AF /* list_menu_favorite@3x.png in Resources */,
+				3CD4FBEA1C35277000BB63A9 /* 背对背拥抱.png in Resources */,
+				3CF5DFEE1C2AB2C500A084AF /* btn_vc_repeatall.png in Resources */,
+				3CD4FBED1C3527FC00BB63A9 /* 偶阵雨.png in Resources */,
+				3CF5DFFF1C2AB2C500A084AF /* DetailPagePlay.png in Resources */,
+				3CF5E01F1C2AB2C500A084AF /* list_menu_share.png in Resources */,
+				3C6690B01C1FA3DD00F0E920 /* 我从草原来.lrc in Resources */,
+				3CF5E0131C2AB2C500A084AF /* list_menu_del_file.png in Resources */,
+				3CF5E0181C2AB2C500A084AF /* list_menu_download@3x.png in Resources */,
+				3CF5DFEB1C2AB2C500A084AF /* btn_face_forward.png in Resources */,
 				3C7604D41C0D4E980022468B /* musicRecource.plist in Resources */,
-				3CC29DCC1C1E561800C37DB9 /* 暂停.png in Resources */,
+				3CF5E02A1C2AB2C500A084AF /* lyric_speed_down.png in Resources */,
+				3CF5DFE71C2AB2C500A084AF /* background副本 3.jpg in Resources */,
+				3CF5E01A1C2AB2C500A084AF /* list_menu_favorite@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

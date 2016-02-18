@@ -14,6 +14,8 @@
 
 @end
 
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+#define ScreenH [UIScreen mainScreen].bounds.size.height
 @implementation ViewController
 
 - (NSMutableArray *)musicArray
@@ -35,8 +37,16 @@
     [super viewDidLoad];
     //更新界面
     self.view.backgroundColor = [UIColor whiteColor];
+    //显示图片
+    _imageView = [[UIImageView alloc] init];
+    _imageView.frame = CGRectMake(0, 0,ScreenW , ScreenH);
+    _imageView.alpha = 0.5;
+    //    _imageView.image = [UIImage imageNamed:_model.picture];
+    [self.view addSubview:_imageView];
+    _imageView.image = [UIImage imageNamed:@"background副本 3.jpg"];
+    [self.view sendSubviewToBack:_imageView];
     [self setUI];
-    [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(showTime) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(showTime) userInfo:nil repeats:YES];
     //创建按钮
     _playButton = [UIButton buttonWithType:UIButtonTypeCustom];
     UIButton *frontButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -47,12 +57,9 @@
     [frontButton setImage:[UIImage imageNamed:@"上一首"] forState:UIControlStateNormal];
     [nextButton setImage:[UIImage imageNamed:@"下一首"] forState:UIControlStateNormal];
     
-
-    
-    
-    frontButton.frame = CGRectMake(43, 550, 50, 40);
-    _playButton.frame = CGRectMake(175, 550, 70, 40);
-    nextButton.frame = CGRectMake(292, 550, 50, 40);
+    frontButton.frame = CGRectMake(63, 550, 40, 40);
+    _playButton.frame = CGRectMake(160, 540, 60, 60);
+    nextButton.frame = CGRectMake(272, 550, 40, 40);
     
     [self.view addSubview:_playButton];
     [self.view addSubview:frontButton];
@@ -64,12 +71,35 @@
     [nextButton addTarget:self action:@selector(musicNext) forControlEvents:UIControlEventTouchUpInside];
     //进度条
     _timeSlider = [[UISlider alloc] initWithFrame:CGRectMake(50, 500, 280, 20)];
+    _timeSlider.minimumTrackTintColor = [UIColor blackColor];
+    [_timeSlider addTarget:self action:@selector(changeMusic:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:_timeSlider];
     _label1 = [[UILabel alloc] initWithFrame:CGRectMake(10, 500, 40, 20)];
     _label2 = [[UILabel alloc] initWithFrame:CGRectMake(330, 500, 40, 20)];
     
     UIImageView *img = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"声音"]];
-    img.frame = CGRectMake(340, 420, 20, 20);
+    img.frame = CGRectMake(335, 360, 35, 35);
+    
+    //创建音量控制
+    _volumeSlider = [[UISlider alloc] initWithFrame:CGRectMake(250, 250, 200, 20)];
+    _volumeSlider.transform = CGAffineTransformMakeRotation(-M_PI_2);
+    _volumeSlider.value = 1;
+    _volumeSlider.minimumValue = 0;
+    _volumeSlider.maximumValue = 10;
+    _volumeSlider.minimumTrackTintColor = [UIColor blackColor];
+    
+    [_volumeSlider addTarget:self action:@selector(volume) forControlEvents:UIControlEventValueChanged];
+    //显示歌词的tableView
+    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 80, 375, 390) style:UITableViewStylePlain];
+    _tableView.separatorStyle = NO;
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+    _tableView.backgroundColor = [UIColor clearColor];
+    _tableView.showsVerticalScrollIndicator = NO;
+    _tableView.allowsSelection = NO;
+    
+    [self.view addSubview:_tableView];
+    [self.view addSubview:_volumeSlider];
     
     [self.view addSubview:img];
     [self.view addSubview:_label1];
@@ -83,48 +113,30 @@
     [_player stop];
 }
 
+//拖动改变歌曲进度
+- (void)changeMusic:(UISlider *)slider{
+    CGFloat progress = slider.value/self.player.duration;
+    self.player.currentTime = progress;
+}
 
 //设置界面信息
 - (void)setUI
 {
 
     //显示歌名
-    _label = [[UILabel alloc] initWithFrame:CGRectMake(0,64,375, 50)];
+   _label = [[UILabel alloc] initWithFrame:CGRectMake(0,0,200, 50)];
     
     _label.textColor = [UIColor blackColor];
     _label.text = _model.musicName;
-    _label.font = [UIFont systemFontOfSize:30];
+    _label.font = [UIFont systemFontOfSize:25];
     _label.textAlignment = NSTextAlignmentCenter;
     
-    [self.view addSubview:_label];
-    //显示图片
-    _imageView = [[UIImageView alloc] init];
-    _imageView.frame = CGRectMake(0, 0, 375, 667);
-    _imageView.alpha = 0.5;
-    _imageView.image = [UIImage imageNamed:_model.picture];
-    [self.view addSubview:_imageView];
-    
-    [self.view sendSubviewToBack:_imageView];
-    
-    //创建音量控制
-    _volumeSlider = [[UISlider alloc] initWithFrame:CGRectMake(250, 300, 200, 20)];
-    _volumeSlider.transform = CGAffineTransformMakeRotation(-M_PI_2);
-    _volumeSlider.value = 0.5;
-    _volumeSlider.minimumValue = 0;
-    _volumeSlider.maximumValue = 1;
-    [self.view addSubview:_volumeSlider];
-    [_volumeSlider addTarget:self action:@selector(volume) forControlEvents:UIControlEventValueChanged];
-    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(35, 110, 300, 390) style:UITableViewStylePlain];
-    _tableView.separatorStyle = NO;
-    _tableView.delegate = self;
-    _tableView.dataSource = self;
-    _tableView.backgroundColor = [UIColor clearColor];
-    _tableView.showsVerticalScrollIndicator = NO;
-    _tableView.allowsSelection = NO;
-    
-    [self.view addSubview:_tableView];
+    self.navigationItem.titleView = _label;
+
+
     [self initLrc:_model.lrc];
     [self loadMusic:_model.musicName AndType:@"mp3"];
+    
     [_player play];
 }
 //加载歌曲
@@ -158,8 +170,9 @@
         _model = self.musicArray[_integer];
         [self loadMusic:_model.musicName AndType:@"mp3"];
         [self initLrc:_model.lrc];
+       
         _label.text = _model.musicName;
-        _imageView.image = [UIImage imageNamed:_model.picture];
+        //_imageView.image = [UIImage imageNamed:_model.picture];
         [_player play];
 
         [_playButton setImage:[UIImage imageNamed:@"暂停"] forState:UIControlStateNormal];
@@ -169,7 +182,7 @@
         [self loadMusic:_model.musicName AndType:@"mp3"];
         [self initLrc:_model.lrc];
         _label.text = _model.musicName;
-        _imageView.image = [UIImage imageNamed:_model.picture];
+        //_imageView.image = [UIImage imageNamed:_model.picture];
         [_player play];
 
         [_playButton setImage:[UIImage imageNamed:@"暂停"] forState:UIControlStateNormal];
@@ -185,8 +198,9 @@
         _model = self.musicArray[_integer];
         [self loadMusic:_model.musicName AndType:@"mp3"];
         [self initLrc:_model.lrc];
+        
         _label.text = _model.musicName;
-        _imageView.image = [UIImage imageNamed:_model.picture];
+        //_imageView.image = [UIImage imageNamed:_model.picture];
         [_player play];
  
         [_playButton setImage:[UIImage imageNamed:@"暂停"] forState:UIControlStateNormal];
@@ -197,14 +211,12 @@
       [self loadMusic:_model.musicName AndType:@"mp3"];
         [self initLrc:_model.lrc];
         _label.text = _model.musicName;
-        _imageView.image = [UIImage imageNamed:_model.picture];
+        //_imageView.image = [UIImage imageNamed:_model.picture];
         [_player play];
    
         [_playButton setImage:[UIImage imageNamed:@"暂停"] forState:UIControlStateNormal];
     }
    
-   
- 
 }
 //歌曲播放完毕执行此方法
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
@@ -229,6 +241,8 @@
     NSDictionary *lrcDict = [lrc1 musicLrc:pathLrc];
     _lrcDict = [NSMutableDictionary dictionaryWithDictionary:[lrcDict objectForKey:@"lrcDict"]];
     _timeArray = [NSMutableArray arrayWithArray:[lrcDict objectForKey:@"timeArray"]];
+    [_tableView reloadData];
+  
 }
 //动态更新歌词
 - (void)updateLrcTableView:(NSUInteger)lineNumber
@@ -258,20 +272,21 @@
     NSInteger num = [_timeArray count];
     for (int i = 0; i<num; i++) {
         NSUInteger currentTime = [lrc changeTime:_timeArray[i]];
-        if (i + 1<num) {
+
+       if (i + 1<num) {
             NSUInteger currentTime1 = [lrc changeTime:_timeArray[i+1]];
             if (_player.currentTime >currentTime && _player.currentTime<currentTime1) {
                 [self updateLrcTableView:i];
                 [_tableView reloadData];
                 break;
             }
-        }else if(_player.currentTime > currentTime){
+        }else if((_player.currentTime > currentTime)){
             [self updateLrcTableView:i];
             [_tableView reloadData];
             break;
         
-            
-        }
+       }
+       
     }
 }
 //UITableView代理实现
@@ -294,12 +309,12 @@
     cell.backgroundColor = [UIColor clearColor];
     cell.textLabel.text = _lrcDict[_timeArray[indexPath.row]];
     if (indexPath.row == _lrcRow) {
-        cell.textLabel.textColor = [UIColor redColor];
+        
         cell.textLabel.font = [UIFont systemFontOfSize:20];
         [_tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
     }else{
-         cell.textLabel.textColor = [UIColor blackColor];
-        cell.textLabel.font = [UIFont systemFontOfSize:15];
+       
+        cell.textLabel.font = [UIFont systemFontOfSize:14];
     }
     return cell;
 }

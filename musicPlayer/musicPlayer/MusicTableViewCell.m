@@ -16,9 +16,10 @@
     _model = model;
     _imgView.image = [UIImage imageNamed:_model.picture];
     _titleLabel.text = _model.musicName;
+    _singerLabel.text = _model.singer;
     _imgView.layer.masksToBounds = YES;
-    _imgView.layer.cornerRadius = 35;
-    _imgView.layer.borderWidth = 1;
+    _imgView.layer.cornerRadius = 25;
+
 
 }
 

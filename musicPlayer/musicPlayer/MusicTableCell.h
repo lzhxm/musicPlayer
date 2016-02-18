@@ -11,7 +11,7 @@
 #import "MusicTableViewCell.h"
 
 
-@interface MusicTableCell : UITableViewController
+@interface MusicTableCell : UIViewController
 
 
 @property (nonatomic,strong) NSMutableArray *mutableArray;

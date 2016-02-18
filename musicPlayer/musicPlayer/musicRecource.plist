@@ -4,27 +4,87 @@
 <array>
 	<dict>
 		<key>music</key>
-		<string>一次就好.mp3</string>
+		<string>独家记忆.mp3</string>
 		<key>musicName</key>
-		<string>一次就好</string>
+		<string>独家记忆</string>
 		<key>singer</key>
-		<string></string>
+		<string>陈小春</string>
 		<key>lrc</key>
-		<string>一次就好</string>
+		<string>独家记忆</string>
 		<key>picture</key>
-		<string>一次就好</string>
+		<string>独家记忆</string>
 	</dict>
 	<dict>
 		<key>music</key>
-		<string>走在冷风中.mp3</string>
+		<string>李白.mp3</string>
 		<key>musicName</key>
-		<string>走在冷风中</string>
+		<string>李白</string>
 		<key>singer</key>
-		<string></string>
+		<string>李荣浩</string>
 		<key>lrc</key>
-		<string>走在冷风中</string>
+		<string>李白</string>
 		<key>picture</key>
-		<string>走在冷风中</string>
+		<string>李白</string>
+	</dict>
+	<dict>
+		<key>music</key>
+		<string>偶阵雨.mp3</string>
+		<key>musicName</key>
+		<string>偶阵雨</string>
+		<key>singer</key>
+		<string>梁静茹</string>
+		<key>lrc</key>
+		<string>偶阵雨</string>
+		<key>picture</key>
+		<string>偶阵雨</string>
+	</dict>
+	<dict>
+		<key>music</key>
+		<string>背对背拥抱.mp3</string>
+		<key>musicName</key>
+		<string>背对背拥抱</string>
+		<key>singer</key>
+		<string>林俊杰</string>
+		<key>lrc</key>
+		<string>背对背拥抱</string>
+		<key>picture</key>
+		<string>背对背拥抱</string>
+	</dict>
+	<dict>
+		<key>music</key>
+		<string>我从草原来.mp3</string>
+		<key>musicName</key>
+		<string>我从草原来</string>
+		<key>singer</key>
+		<string>凤凰传奇</string>
+		<key>lrc</key>
+		<string>我从草原来</string>
+		<key>picture</key>
+		<string>我从草原来</string>
+	</dict>
+	<dict>
+		<key>music</key>
+		<string>以后的以后.mp3</string>
+		<key>musicName</key>
+		<string>以后的以后</string>
+		<key>singer</key>
+		<string>庄心妍</string>
+		<key>lrc</key>
+		<string>以后的以后</string>
+		<key>picture</key>
+		<string>以后的以后</string>
+	</dict>
+	<dict>
+		<key>music</key>
+		<string>冬天的秘密.mp3</string>
+		<key>musicName</key>
+		<string>冬天的秘密</string>
+		<key>singer</key>
+		<string>周传雄</string>
+		<key>lrc</key>
+		<string>冬天的秘密</string>
+		<key>picture</key>
+		<string>冬天的秘密</string>
 	</dict>
 	<dict>
 		<key>music</key>
@@ -32,7 +92,7 @@
 		<key>musicName</key>
 		<string>爱情转移</string>
 		<key>singer</key>
-		<string></string>
+		<string>陈奕迅</string>
 		<key>lrc</key>
 		<string>爱情转移</string>
 		<key>picture</key>
@@ -40,15 +100,15 @@
 	</dict>
 	<dict>
 		<key>music</key>
-		<string>稳稳的幸福.mp3</string>
+		<string>其实都没有.mp3</string>
 		<key>musicName</key>
-		<string>稳稳的幸福</string>
+		<string>其实都没有</string>
 		<key>singer</key>
-		<string></string>
+		<string>杨宗纬</string>
 		<key>lrc</key>
-		<string>稳稳的幸福</string>
+		<string>其实都没有</string>
 		<key>picture</key>
-		<string>稳稳的幸福</string>
+		<string>其实都没有</string>
 	</dict>
 </array>
 </plist>
